@@ -9,22 +9,39 @@
 </head>
 <body>
   <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img src="/img/leeds-night-owls-logo.png" class="bi me-2" alt="Night Owls Wargames Club logo" width="40" height="33">
-        <span class="fs-4">Leeds Night Owls</span>
-      </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/img/leeds-night-owls-logo.png" class="bi me-2" alt="Night Owls Wargames Club logo" width="40" height="33">
+          Leeds Night Owls
+        </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-    </header>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/meetings">Meetings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/membership">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/games">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-  
+
   <div class="container">
  
     {{ content | safe }}
@@ -40,11 +57,10 @@
       </a>
 
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        <li class="nav-item"><a href="/meetings" class="nav-link px-2 text-body-secondary">Meetings</a></li>
+        <li class="nav-item"><a href="/membership" class="nav-link px-2 text-body-secondary">Membership</a></li>
+        <li class="nav-item"><a href="/games" class="nav-link px-2 text-body-secondary">Games</a></li>
+        <li class="nav-item"><a href="/contact-us" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
       </ul>
     </footer>
   </div>
