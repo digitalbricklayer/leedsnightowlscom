@@ -4,5 +4,5 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'robots.txt': '/robots.txt' });
   eleventyConfig.addPassthroughCopy({ 'favicon.ico': '/favicon.ico' });
 
-  eleventyConfig.addLayoutAlias("game", "layouts/game.njk");
+//  eleventyConfig.addLayoutAlias("game", "_includes/game.njk");
 };
