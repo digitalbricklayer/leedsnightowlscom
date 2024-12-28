@@ -1,0 +1,16 @@
+---
+title: "Events at Leeds Night Owls | Leeds Night Owls Wargames Club"
+description: "A list of upcoming events at Leeds Night Owls Wargames Club."
+layout: page
+eleventyImport: 
+  collections: ["event"]
+---
+
+<h1>Events at Leeds Night Owls</h1>
+<p>Upcoming events to look forward to at Leeds Night Owls.</p>
+
+<ul>
+{%- for event in collections.event -%}
+  <li><a href="{{ event.url }}">{{ event.data.title }}</a></li>
+{%- endfor -%}
+</ul>
