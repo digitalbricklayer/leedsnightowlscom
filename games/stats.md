@@ -7,7 +7,7 @@ layout: page
 
 At Leeds Night Owls we play an awful lot of games. This page gives an indication about which games we play and how often. As you may notice, there are a few games that are staples at the club, as well as a lot of games we dip in and out quite a lot.
 
-Please note that the *times played* number represents a game being played at the club at a specific meeting. It does not count the number of total games of the specific game have beeb played.
+Please note that the *times played* number represents whether a game being played at the club at a specific meeting. It does not count the number of total games of the specific game have beeb played. For example, if Bolt Action is played on three tables at a specific meeting, Bolt Action would be given one count in the table.
 
 ## Autumn 2024
 
