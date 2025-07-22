@@ -7,18 +7,18 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'favicon.ico': '/favicon.ico' });
 
 //  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+//  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process
-    extensions: 'html',
+//    extensions: 'html',
     // optional, output image formats
-    formats: ['jpg', 'png', 'webp'],
+//    formats: ['jpg', 'png', 'webp'],
     // optional, output image widths
-    widths: ['auto', 400],
+//    widths: ['auto', 400],
     // optional, attributes assigned on <img> override these values.
 //    defaultAttributes: {
 //        loading: 'lazy',
 //        sizes: '100vw',
 //        decoding: 'async',
 //    },
-  });
+//  });
 };
