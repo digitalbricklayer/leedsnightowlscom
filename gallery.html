@@ -1,277 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">  
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <img eleventy:ignore src="/img/leeds-night-owls-logo.png" class="bi me-2" alt="Night Owls Wargames Club logo" width="40" height="33">
-          {{ site.name }}
-        </a>
+---
+title: "Leeds Night Owls Photo Gallery | Leeds Night Owls Wargames Club"
+description: "A photo gallery showing pictures old and new from Leeds Night Owls Wargames Club meetings."
+layout: gallery
+---
+<h1>Leeds Night Owls Photo Gallery</h1>
+<p>A small sample of the photos taken at Leeds Night Owls meetings to give you some idea of the games we play. Many of the images are very old and do not necessarily represent the games we play at the moment nor the current venue.</p>
+<p>Many thanks to Paul Grace for sharing many of the images below and allowing us to use them on this site.</p>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-label="Read more about meetings at Night Owls" href="/meetings/">Meetings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-label="Read more about membership at Night Owls" href="/membership/">Membership</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-label="Games played at Leeds Night Owls" href="/games/">Games</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-label="Answers to frequently asked questions" href="/faq/">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-label="Contact Leeds Night Owls" href="/contact-us/">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+<div class="pswp-gallery" id="gallery">
 
-  <div class="container">
-    <h1>Leeds Night Owls Photo Gallery</h1>
-    <p>A small sample of the photos taken at Leeds Night Owls meetings to give you some idea of the games we play. Many of the images are very old now and do not necessarily represent the games we play at the moment nor the current venue.</p>
-    <p>Many thanks to Paul Grace for sharing many of the images below and allowing us to use them on this site.</p>
- 
-    <div class="pswp-gallery" id="gallery">
+  <!-- the early years at the club -->
+  <a href="/img/gallery/the-early-years/BOB_CONTEMPLATES.JPG" 
+    data-pswp-width="640" 
+    data-pswp-height="480" 
+    target="_blank">
+    <img src="/img/gallery/the-early-years/BOB_CONTEMPLATES_T.JPG" alt="" />
+  </a>
 
-      <!-- the early years at the club -->
-      <a href="/img/gallery/the-early-years/BOB_CONTEMPLATES.JPG" 
-        data-pswp-width="640" 
-        data-pswp-height="480" 
-        target="_blank">
-        <img src="/img/gallery/the-early-years/BOB_CONTEMPLATES_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/the-early-years/John_at_warhammer.JPG" 
+    data-pswp-width="640" 
+    data-pswp-height="480" 
+    target="_blank">
+    <img src="/img/gallery/the-early-years/John_at_warhammer_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/the-early-years/John_at_warhammer.JPG" 
-        data-pswp-width="640" 
-        data-pswp-height="480" 
-        target="_blank">
-        <img src="/img/gallery/the-early-years/John_at_warhammer_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/the-early-years/TOM_S_AWARD.JPG" 
+    data-pswp-width="640" 
+    data-pswp-height="480" 
+    target="_blank">
+    <img src="/img/gallery/the-early-years/TOM_S_AWARD_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/the-early-years/TOM_S_AWARD.JPG" 
-        data-pswp-width="640" 
-        data-pswp-height="480" 
-        target="_blank">
-        <img src="/img/gallery/the-early-years/TOM_S_AWARD_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/the-early-years/DSCN0603.JPG" 
+    data-pswp-width="640" 
+    data-pswp-height="480" 
+    target="_blank">
+    <img src="/img/gallery/the-early-years/DSCN0603_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/the-early-years/PICT0022.JPG" 
+    data-pswp-width="1600" 
+    data-pswp-height="1200"
+    data-cropped="true" 
+    target="_blank">
+    <img src="/img/gallery/the-early-years/PICT0022_T.JPG" alt="" />
+  </a>
+  
+  <!-- GW thank-you -->
+
+  <a href="/img/gallery/gw-thank-you-2006/PICT0043.JPG" 
+    data-pswp-width="2048" 
+    data-pswp-height="1536" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/gw-thank-you-2006/PICT0043_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/gw-thank-you-2006/PICT0044.JPG" 
+    data-pswp-width="2048" 
+    data-pswp-height="1536" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/the-early-years/PICT0044_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/gw-thank-you-2006/PICT0047.JPG" 
+    data-pswp-width="2048" 
+    data-pswp-height="1536" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/gw-thank-you-2006/PICT0047_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/gw-thank-you-2006/PICT0049.JPG" 
+    data-pswp-width="2048" 
+    data-pswp-height="1536" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/gw-thank-you-2006/PICT0049_T.JPG" alt="" />
+  </a>
+
+  <!-- Conflict Bolton -->
+  <a href="/img/gallery/conflict-bolton/_IGP3884.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3884_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/conflict-bolton/_IGP3885.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3885_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/conflict-bolton/_IGP3886.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3886_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/conflict-bolton/_IGP3888.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3888_T.JPG" alt="" />
+  </a>
+
+  <a href="/img/gallery/conflict-bolton/_IGP3889.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3889_T.JPG" alt="" />
+  </a>
     
-      <a href="/img/gallery/the-early-years/DSCN0603.JPG" 
-        data-pswp-width="640" 
-        data-pswp-height="480" 
-        target="_blank">
-        <img src="/img/gallery/the-early-years/DSCN0603_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/the-early-years/PICT0022.JPG" 
-        data-pswp-width="1600" 
-        data-pswp-height="1200"
-        data-cropped="true" 
-        target="_blank">
-        <img src="/img/gallery/the-early-years/PICT0022_T.JPG" alt="" />
-      </a>
-      
-      <!-- GW thank-you -->
+  <a href="/img/gallery/conflict-bolton/_IGP3890.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3890_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/gw-thank-you-2006/PICT0043.JPG" 
-        data-pswp-width="2048" 
-        data-pswp-height="1536" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/gw-thank-you-2006/PICT0043_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/gw-thank-you-2006/PICT0044.JPG" 
-        data-pswp-width="2048" 
-        data-pswp-height="1536" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/the-early-years/PICT0044_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3891.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3891_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/gw-thank-you-2006/PICT0047.JPG" 
-        data-pswp-width="2048" 
-        data-pswp-height="1536" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/gw-thank-you-2006/PICT0047_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/gw-thank-you-2006/PICT0049.JPG" 
-        data-pswp-width="2048" 
-        data-pswp-height="1536" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/gw-thank-you-2006/PICT0049_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3892.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3892_T.JPG" alt="" />
+  </a>
 
-      <!-- Conflict Bolton -->
-      <a href="/img/gallery/conflict-bolton/_IGP3884.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3884_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3893.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3893_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/conflict-bolton/_IGP3885.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3885_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3894.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3894_T.JPG" alt="" />
+  </a>
 
-      <a href="/img/gallery/conflict-bolton/_IGP3886.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3886_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3888.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3888_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3889.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3889_T.JPG" alt="" />
-      </a>
-        
-      <a href="/img/gallery/conflict-bolton/_IGP3890.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3890_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3891.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3891_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3892.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3892_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3893.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3893_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3894.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3894_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3899.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3899_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3900.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3900_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3901.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3901_T.JPG" alt="" />
-      </a>
-    
-      <a href="/img/gallery/conflict-bolton/_IGP3902.JPG" 
-        data-pswp-width="3008" 
-        data-pswp-height="2008" 
-        data-cropped="true"
-        target="_blank">
-        <img src="/img/gallery/conflict-bolton/_IGP3902_T.JPG" alt="" />
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3899.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3899_T.JPG" alt="" />
+  </a>
 
-    </div>
-   
-  </div>
+  <a href="/img/gallery/conflict-bolton/_IGP3900.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3900_T.JPG" alt="" />
+  </a>
 
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-body-secondary">Copyright &copy; Leeds Night Owls 2025</p>
+  <a href="/img/gallery/conflict-bolton/_IGP3901.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3901_T.JPG" alt="" />
+  </a>
 
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img eleventy:ignore src="/img/leeds-night-owls-logo.png" class="bi me-2" alt="Night Owls Wargames Club logo" width="40" height="33">
-      </a>
+  <a href="/img/gallery/conflict-bolton/_IGP3902.JPG" 
+    data-pswp-width="3008" 
+    data-pswp-height="2008" 
+    data-cropped="true"
+    target="_blank">
+    <img src="/img/gallery/conflict-bolton/_IGP3902_T.JPG" alt="" />
+  </a>
 
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="/meetings/" class="nav-link px-2 text-body-secondary">Meetings</a></li>
-        <li class="nav-item"><a href="/membership/" class="nav-link px-2 text-body-secondary">Membership</a></li>
-        <li class="nav-item"><a href="/games/" class="nav-link px-2 text-body-secondary">Games</a></li>
-        <li class="nav-item"><a href="/events/" class="nav-link px-2 text-body-secondary">Events</a></li>
-        <li class="nav-item"><a href="/faq/" class="nav-link px-2 text-body-secondary">FAQ</a></li>
-        <li class="nav-item"><a href="/contact-us/" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
-      </ul>
-    </footer>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/umd/photoswipe.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/umd/photoswipe-lightbox.umd.min.js"></script>
-
-  <script type="text/javascript">
-    var lightbox = new PhotoSwipeLightbox({
-      gallery: '#gallery',
-      children: 'a',
-      pswpModule: PhotoSwipe
-    });
-    lightbox.init();
-  </script>
-</body>
-</html>
+</div>
