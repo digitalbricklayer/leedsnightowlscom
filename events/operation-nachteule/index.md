@@ -8,7 +8,7 @@ layout: page
 
 Leeds Night Owls will be running an escalation club tournament on Sunday 25 June 2017.
 
-Operation NACHTEULE is an open Bolt Action escalation tournament being hosted by the Leeds Night Owls within The Cardigan Centre on Sunday 25 June 2017.
+Operation NACHTEULE is an open [Bolt Action](/games/bolt-action/) escalation tournament being hosted by the Leeds Night Owls within The Cardigan Centre on Sunday 25 June 2017.
 
 Players will start with a single reinforced platoon at 500 points and then add an additional 250 points for the next two games thus making 750 point and 1000 point lists.
 
