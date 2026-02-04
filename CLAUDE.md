@@ -45,4 +45,4 @@ Events use `tags: event` in front-matter to create the events collection, refere
 
 ## Deployment
 
-Deploys to Netlify. The `public/_redirects` file handles legacy URL rewrites from previous site versions.
+Deploys to Cloudflare Pages. The `public/_redirects` file handles legacy URL rewrites from previous site versions.
