@@ -22,3 +22,6 @@ _site/
 # Ignore test files
 .cache
 test/stubs-layout-cache/_includes/*.js
+
+# Claude Code creates these files when running tests, but they are not needed in the repository
+nul
