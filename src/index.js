@@ -15,5 +15,7 @@ export default {
 
         return new Response(`Successfully sent email!`);    
     }
+
+    return new Response("Send a POST request to send an email.");
   }
 }
