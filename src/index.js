@@ -13,9 +13,13 @@ export default {
             text: "Hello World!"
         });
 
-        return new Response(`Successfully sent email!`);    
+        return Response.redirect("https://leedsnightowls.com/thankyou/", 302);
     }
 
-    return new Response("Send a POST request to send an email.");
+    const myBlob = new Blob();
+    const notFoundOptions = { status: 404, statusText: "Unable to find the resource." };
+    const notFoundResponse = new Response(myBlob, notFoundOptions);    
+
+    return notFoundResponse;
   }
 }
