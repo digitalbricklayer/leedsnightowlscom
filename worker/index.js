@@ -9,13 +9,14 @@ export default {
         const formData = await request.formData();
         const name = formData.get("name");
         const email = formData.get("email");
-        const message = formData.get("message");
+//        const message = formData.get("message");
 
         await env.SEND_EMAIL.send({
             to: [{ email: `${recipient}` }],
             from: { email: `${sender}`, name: `${senderName}` },
             subject: `Message from ${name}`,
-            text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+  //          text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+            text: `Name: ${name}\nEmail: ${email}\n`
         });
 
         return Response.redirect("https://leedsnightowls.com/thankyou/", 302);
