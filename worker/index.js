@@ -7,8 +7,8 @@ export default {
         const recipient = "jackhughes409@gmail.com";
 
         const formData = await request.formData();
-        console.log("Form Data:", Object.fromEntries(formData.entries()));
-//        const name = formData.get("name");
+//        console.log("Form Data:", Object.fromEntries(formData.entries()));
+        const name = formData.get("name");
 //        const email = formData.get("email");
 //        const message = formData.get("message");
 
