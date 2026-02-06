@@ -7,6 +7,11 @@
     "directory": "./_site/",
     "not_found_behavior": "404-page"
   },
+  "send_email": [
+    {
+      "name": "EMAIL"
+    }
+  ],
   "observability": {
     "enabled": true
   }
