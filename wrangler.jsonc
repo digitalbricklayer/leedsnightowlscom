@@ -9,7 +9,7 @@
   },
   "send_email": [
     {
-      "name": "EMAIL"
+      "name": "CONTACT_FORM_SENDER"
     }
   ],
   "observability": {
