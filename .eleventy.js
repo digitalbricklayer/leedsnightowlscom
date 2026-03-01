@@ -1,3 +1,5 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
 module.exports = async function(eleventyConfig) {
 	// Copy the contents of the public directory to output directory stripping off the public part
 	eleventyConfig.addPassthroughCopy({ "./public/": "/" });
@@ -14,4 +16,6 @@ module.exports = async function(eleventyConfig) {
 		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
 		bundleHtmlContentFromSelector: "style",
 	});
+
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 };

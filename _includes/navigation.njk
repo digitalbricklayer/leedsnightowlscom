@@ -1,0 +1,22 @@
+{% set navPages = collections.all | eleventyNavigation %}
+
+{% macro renderNavListChildItem(entry) -%}
+<li>
+  <a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
+</li>
+{%- endmacro %}
+
+{% macro renderNavListItem(entry) -%}
+<li{% if entry.children.length %} class="nav-item dropdown" {% else %} class="nav-item" {% endif %}>
+  <a{% if entry.children.length %} class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" {% else %} class="nav-link" {% endif %} aria-expanded="false" aria-current="page" href="{{ entry.url }}">{{ entry.title }}</a>
+{%- if entry.children.length -%}
+  <ul class="dropdown-menu">
+    {%- for child in entry.children %}{{ renderNavListChildItem(child) }}{% endfor -%}
+  </ul>
+{%- endif -%}
+</li>
+{%- endmacro %}
+
+<ul class="navbar-nav">
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>
