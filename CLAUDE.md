@@ -20,6 +20,7 @@ Output directory: `_site/`
 ## Technology Stack
 
 - **Eleventy (11ty) v3.0.0** - Static site generator
+- **Eleventy navigation plugin** - main menu generator
 - **Nunjucks** - Primary templating language (.njk files)
 - **Bootstrap 5.3** - CSS framework (CDN)
 - **PhotoSwipe 5.4** - Lightbox gallery (CDN)
@@ -28,9 +29,8 @@ Output directory: `_site/`
 
 ### Content Flow
 Pages can be `.njk`, `.html`, or `.md` files in the root or subdirectories. Eleventy processes them using:
-- `_includes/page.njk` - Base layout with Bootstrap structure
-- `_includes/gallery.njk` - PhotoSwipe-enabled gallery layout
-- `_includes/game.njk` - Game card component
+- `_includes/page.njk` - Base page layout with Bootstrap structure
+- `_includes/navigation.njk` - main menu using 11ty navigation plugin
 
 ### Data
 - `_data/site.json` - Global site configuration (name, URL)
@@ -45,4 +45,4 @@ Events use `tags: event` in front-matter to create the events collection, refere
 
 ## Deployment
 
-Deploys to Cloudflare Pages. The `public/_redirects` file handles legacy URL rewrites from previous site versions.
+Deploys to Cloudflare Worker. The `public/_redirects` file handles legacy URL rewrites from previous site versions.
