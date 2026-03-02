@@ -3,6 +3,7 @@ title: Big Warmaster Game
 description: "A battle report for a large scale battle of Warmaster between a Bretonnian and Vampire Counts armies."
 layout: page
 includeGallery: true
+tags: warmaster
 ---
 # Big Warmaster Game
 
@@ -51,3 +52,7 @@ So the figures go will go back into storage until the next time, perhaps another
   <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481731740.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481731740.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
   <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481738561.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481738561.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
 </div>
+
+# Credits
+
+Photos and report written by Mark Unitt and published on the Leeds Night Owls website with permission.
