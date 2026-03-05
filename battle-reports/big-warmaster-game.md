@@ -23,7 +23,7 @@ The second line of Knights charged home to beat back the Ethereal hosts. The Peg
 
 To get back on the front foot the Vampire Count called upon his vampire in the black coach to lead the rest of the Black Knights to victory. The vampire stirred in his coffin and rolled a nine. Leading what troops he could muster the Vampire Count went back into the fray, but it was too late, even the Bretonnian infantry were winning.
 
-The count’s struggles were in vain as more and more units fell beneath the hooves of the Bretonnians. So, he accepted the inevitable and called it a day before slinking off in defeat, determine to have a serious word with one of his Vampires
+The count’s struggles were in vain as more and more units fell beneath the hooves of the Bretonnians. So, he accepted the inevitable and called it a day before slinking off in defeat, determined to have a serious word with one of his Vampires
 
 Overall, a good game despite the poor performance by the vampires, I mean how hard is it to cast a spell, you had one job to do!
 
