@@ -1,8 +1,10 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import pluginGallery from "./modules/eleventy-plugin-gallery/.eleventy.js";
 
-module.exports = async function(eleventyConfig) {
+export default (eleventyConfig) => {
 	// Copy the contents of the public directory to output directory stripping off the public part
-	eleventyConfig.addPassthroughCopy({ "./public/": "/" });
+//	eleventyConfig.addPassthroughCopy({ "./public/": "/" });
 	eleventyConfig.addPassthroughCopy({ 'robots.txt': '/robots.txt' });
 	eleventyConfig.addPassthroughCopy({ 'favicon.ico': '/favicon.ico' });
 
@@ -18,4 +20,6 @@ module.exports = async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+	eleventyConfig.addPlugin(pluginGallery);
 };
