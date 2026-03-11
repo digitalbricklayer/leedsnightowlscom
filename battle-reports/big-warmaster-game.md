@@ -32,25 +32,25 @@ So the figures go will go back into storage until the next time, perhaps another
 ## Big Warmaster Game Photos
 
 {% gallery "big-warmaster-game" %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481630149.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481637292.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481644860.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481650606.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481657010.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481667142.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481672371.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481678839.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481683081.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481688805.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481695393.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481700167.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481705329.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481710473.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481715438.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481720449.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481725974.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481731740.jpg", "Big Warmaster game", 600 %}
-{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481738561.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481630149.jpg", "Overhead view of Bretonnian and Vampire Counts armies deployed for battle", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481637292.jpg", "Both armies arrayed across the battlefield with forests and stone fortifications", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481644860.jpg", "Bretonnian cavalry and infantry in tight formation ready to charge", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481650606.jpg", "Vampire Counts infantry and elite undead formations advancing", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481657010.jpg", "Vampire Counts cavalry and infantry with casualty markers as combat begins", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481667142.jpg", "Wide view of Bretonnian and Vampire Counts battle lines across the table", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481672371.jpg", "Vampire Counts forces with character model and casualty markers", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481678839.jpg", "Vampire Counts mounted character alongside infantry with combat casualties", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481683081.jpg", "Overhead view of the full battlefield with both armies and terrain", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481688805.jpg", "Angled view showing separation between the two armies mid-battle", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481695393.jpg", "Close-up of Bretonnian knights in charge formation showing heraldry detail", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481700167.jpg", "Vampire Counts special characters with infantry support and casualties", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481705329.jpg", "Bretonnian and Vampire Counts units in close combat", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481710473.jpg", "Vampire Counts cavalry facing Bretonnian formations across the battlefield", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481715438.jpg", "Intensive combat turn with both armies heavily engaged near hill terrain", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481720449.jpg", "Bretonnian left flank cavalry and infantry in tight formation", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481725974.jpg", "Bretonnian knights clashing with Vampire Counts forces near terrain", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481731740.jpg", "Both armies intermingled in combat with casualties on both sides", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481738561.jpg", "Climactic battle engagement with heavily committed forces and casualties", 600 %}
 {% endgallery %}
 
 # Credits
