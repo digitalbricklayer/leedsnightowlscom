@@ -31,27 +31,27 @@ So the figures go will go back into storage until the next time, perhaps another
 
 ## Big Warmaster Game Photos
 
-<div class="pswp-gallery row row-cols-2 row-cols-md-4 g-2" id="gallery-big-warmaster-game">
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481630149.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481630149.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481637292.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481637292.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481644860.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481644860.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481650606.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481650606.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481657010.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481657010.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481667142.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481667142.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481672371.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481672371.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481678839.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481678839.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481683081.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481683081.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481688805.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481688805.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481695393.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481695393.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481700167.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481700167.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481705329.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481705329.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481710473.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481710473.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481715438.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481715438.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481720449.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481720449.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481725974.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481725974.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481731740.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481731740.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-  <div class="col"><a href="/img/big-warmaster-game/FB_IMG_1772481738561.jpg" data-pswp-width="1536" data-pswp-height="2048" data-cropped="true" target="_blank"><img src="/img/big-warmaster-game/FB_IMG_1772481738561.jpg" alt="Big Warmaster game" class="img-fluid" /></a></div>
-</div>
+{% gallery "big-warmaster-game" %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481630149.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481637292.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481644860.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481650606.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481657010.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481667142.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481672371.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481678839.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481683081.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481688805.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481695393.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481700167.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481705329.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481710473.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481715438.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481720449.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481725974.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481731740.jpg", "Big Warmaster game", 600 %}
+{% galleryImg "/public/img/big-warmaster-game/FB_IMG_1772481738561.jpg", "Big Warmaster game", 600 %}
+{% endgallery %}
 
 # Credits
 
