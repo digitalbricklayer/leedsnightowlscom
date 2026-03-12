@@ -3,6 +3,6 @@ eleventyNavigation:
   parent: Games
   key: All Games
   url: /games/
-  order: 1
+  order: 10
 permalink: false
 ---
