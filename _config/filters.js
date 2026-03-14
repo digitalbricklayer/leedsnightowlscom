@@ -40,4 +40,13 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
+
+	// Custom filter to capitalize each word in a string
+	eleventyConfig.addFilter("capitalizeWords", function capitalizeWords(value) {
+		if (typeof value !== 'string') {
+			return ''; // or handle the undefined case as needed
+		}
+
+		return value.replace(/\b\w/g, char => char.toUpperCase());
+	});
 };

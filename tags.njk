@@ -3,10 +3,10 @@ title: All Tags
 layout: page
 ---
 <h1>All Tags</h1>
-
-<ul>
+<p>Browse content by tag:</p>
+<div class="d-flex flex-wrap gap-2">
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <a href="{{ tagUrl }}" class="badge bg-secondary text-decoration-none">{{ tag | capitalizeWords }}</a>
 {% endfor %}
-</ul>
+</div>
