@@ -1,10 +1,12 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginGallery from "./modules/eleventy-plugin-gallery/.eleventy.js";
+import pluginFilters from "./_config/filters.js";
 
 export default (eleventyConfig) => {
 	eleventyConfig.addPassthroughCopy({ 'robots.txt': '/robots.txt' });
 	eleventyConfig.addPassthroughCopy({ 'favicon.ico': '/favicon.ico' });
+	eleventyConfig.addPassthroughCopy({ '_redirects': '/_redirects' });
 
 	eleventyConfig.addWatchTarget("css/**/*.css");
 
@@ -20,4 +22,5 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 	eleventyConfig.addPlugin(pluginGallery);
+	eleventyConfig.addPlugin(pluginFilters);
 };

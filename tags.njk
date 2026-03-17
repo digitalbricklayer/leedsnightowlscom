@@ -1,0 +1,12 @@
+---
+title: All Tags
+layout: page
+---
+<h1>All Tags</h1>
+<p>Browse content by tag:</p>
+<div class="d-flex flex-wrap gap-2">
+{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <a href="{{ tagUrl }}" class="badge bg-secondary text-decoration-none">{{ tag | capitalizeWords }}</a>
+{% endfor %}
+</div>
