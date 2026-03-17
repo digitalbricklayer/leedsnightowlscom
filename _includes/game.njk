@@ -1,0 +1,12 @@
+---
+layout: page.njk
+---
+
+{{ content | safe }}
+
+<div class="d-flex flex-wrap gap-2">
+	{%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<a href="{{ tagUrl }}" class="badge bg-secondary text-decoration-none">{{ tag }}</a>{%- if not loop.last %} &middot; {% endif %}
+	{%- endfor %}
+</div>
