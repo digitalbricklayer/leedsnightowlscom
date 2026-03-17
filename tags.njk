@@ -4,9 +4,11 @@ layout: page
 ---
 <h1>All Tags</h1>
 <p>Browse content by tag:</p>
-<div class="d-flex flex-wrap gap-2">
-{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-    <a href="{{ tagUrl }}" class="badge bg-secondary text-decoration-none">{{ tag | capitalizeWords }}</a>
-{% endfor %}
+<div class="d-flex flex-wrap gap-2 mt-3">
+    {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<a href="{{ tagUrl }}" class="badge rounded-pill text-bg-secondary text-decoration-none fs-6 fw-normal">
+		<i class="bi bi-tag me-1"></i>{{ tag }}
+	</a>
+	{%- endfor %}
 </div>
