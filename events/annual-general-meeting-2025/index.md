@@ -1,6 +1,6 @@
 ---
 title: "Annual General Meeting 2025 at Leeds Night Owls"
-description: "Annual General Meeting 2025 for Leeds Night Owls Wargaming Club"
+description: "The Leeds Night Owls Wargames Club Annual General Meeting 2025 is scheduled for 12th January 2025 at The Cardigan Centre."
 tags: event
 layout: page
 ---

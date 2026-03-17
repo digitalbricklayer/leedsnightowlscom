@@ -1,9 +1,13 @@
 {% set navPages = collections.all | eleventyNavigation %}
 
 {% macro renderNavListChildItem(entry) -%}
+{% if entry.url %}
 <li>
   <a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
 </li>
+{% else %}
+<li><hr class="dropdown-divider"></li>
+{% endif %}
 {%- endmacro %}
 
 {% macro renderNavListItem(entry) -%}
