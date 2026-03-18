@@ -53,6 +53,6 @@ So the figures go will go back into storage until the next time, perhaps another
 {% galleryImg "/battle-reports/big-warmaster-game/images/FB_IMG_1772481738561.jpg", "Climactic battle engagement with heavily committed forces and casualties", 600 %}
 {% endgallery %}
 
-# Credits
+## Credits
 
 Photos and report written by Mark Unitt and published on the Leeds Night Owls website with permission.
