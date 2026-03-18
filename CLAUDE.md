@@ -29,7 +29,7 @@ Output directory: `_site/`
 
 ### Content Flow
 Pages can be `.njk`, `.html`, or `.md` files in the root or subdirectories. Eleventy processes them using:
-- `_includes/page.njk` - Base page layout with Bootstrap structure
+- `_layouts/page.njk` - Base page layout with Bootstrap structure
 - `_includes/navigation.njk` - main menu using 11ty navigation plugin
 
 ### Data

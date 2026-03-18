@@ -4,6 +4,8 @@ import pluginGallery from "./modules/eleventy-plugin-gallery/.eleventy.js";
 import pluginFilters from "./_config/filters.js";
 
 export default (eleventyConfig) => {
+	eleventyConfig.setLayoutsDirectory("_layouts");
+
 	eleventyConfig.addPassthroughCopy({ 'robots.txt': '/robots.txt' });
 	eleventyConfig.addPassthroughCopy({ 'favicon.ico': '/favicon.ico' });
 	eleventyConfig.addPassthroughCopy({ '_redirects': '/_redirects' });
