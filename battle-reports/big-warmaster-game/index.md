@@ -7,9 +7,9 @@ tags: warmaster
 ---
 # Big Warmaster Game
 
-Or rather game of [Warmaster](/games/warmaster/) with big figures.
+Or rather, a game of [Warmaster](/games/warmaster/) with big figures.
 
-The figures from way back when I actually played Warmaster Fantasy. I had just enough figures  left in dusty boxes to create a Bretonnian and a Vampire Counts army. Only a few pieces needed to be printed and painted (Pegasus Knights are 10mm figures scaled up, came out OK). I based one cavalry figure and two infantry to a base to make reasonable looking units.
+The figures from way back when I actually played Warhammer Fantasy. I had just enough figures left in dusty boxes to create a Bretonnian and a Vampire Counts army. Only a few pieces needed to be printed and painted (Pegasus Knights are 10mm figures scaled up, came out OK). I based one cavalry figure and two infantry to a base to make reasonable looking units.
 
 So, 2000 point armes ready, table prepared with suitable terrain, armies deployed lazy wargamer style on the table side closest to the players.
 
