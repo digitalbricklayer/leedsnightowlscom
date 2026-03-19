@@ -2,10 +2,14 @@
 title: Landmunchen Tank Park
 description: A day of reckoning for the Soviets on an overcast day near Landmunchen in Germany.
 layout: page
+date: 2026-03-18
 tags:
   - team yankee
   - moderns
+  - battle-report
 includeGallery: true
+thumbnail: /battle-reports/landmunchen-tank-park/images/PXL_20250629_095231957.jpg
+thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
 ---
 
 # Landmunchen Tank Park

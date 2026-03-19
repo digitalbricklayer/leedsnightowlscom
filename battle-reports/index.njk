@@ -1,55 +1,29 @@
 ---
 title: Battle Reports
+description: "All battle reports of games taking place at Leeds Night Owls covering a wide range of different rules."
 layout: page
 eleventyNavigation:
   key: Battle Reports
   order: 5
+eleventyImport:
+  collections: ["battle-report"]
 ---
 
 <h1>Battle Reports at Leeds Night Owls</h1>
 <p>A few of the more notable games played at Night Owls that members have been kind enough to write up to give a flavour for the tabletop wargaming we do at the club.</p>
-<div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/battle-reports/big-warmaster-game/">
-          <img src="/battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg" alt="The castle prior to the undead assault." class="img-fluid">
-        </a>
-        <div class="caption">
-          <p>Big Warmaster Game</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/battle-reports/castle-assault-scenario/">
-          <img src="/battle-reports/castle-assault-scenario/images/FB_IMG_1773842372914.jpg" alt="The castle prior to the undead assault." class="img-fluid">
-        </a>
-        <div class="caption">
-          <p>Tomb King Ey-ap Storms the Elven Castle of Limeswold</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/battle-reports/landmunchen-tank-park/">
-          <img src="/battle-reports/landmunchen-tank-park/images/PXL_20250629_095231957.jpg" alt="An armoured column of T-64 tanks heading to Landmunchen" class="img-fluid">
-        </a>
-        <div class="caption">
-          <p>Landmunchen Tank Park</p>
-        </div>
-      </div>
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/battle-reports/bolt-action-battle-report-march-15-2026/">
-          <img src="/battle-reports/bolt-action-battle-report-march-15-2026/images/654580460_1241838628041621_6170214115789364402_n.jpg" alt="US Airborne waiting for the off" class="img-fluid">
-        </a>
-        <div class="caption">
-          <p>Bolt Action Battle Report American Airborne vs German SS 1000 points</p>
-        </div>
-      </div>
-    </div>
+{% for report in collections['battle-report'] | reverse %}
+<div class="row mb-4 border-bottom pb-4">
+  <div class="col-md-4">
+    <a href="{{ report.url }}">
+      <img src="{{ report.data.thumbnail }}" alt="{{ report.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+    </a>
+  </div>
+  <div class="col-md-8">
+    <h2><a href="{{ report.url }}" class="text-decoration-none">{{ report.data.title }}</a></h2>
+    <p class="text-muted">{{ report.date | readableDate }}</p>
+    {% if report.data.description %}<p>{{ report.data.description }}</p>{% endif %}
+    <a href="{{ report.url }}" class="btn btn-outline-secondary btn-sm">Read report</a>
+  </div>
 </div>
+{% endfor %}

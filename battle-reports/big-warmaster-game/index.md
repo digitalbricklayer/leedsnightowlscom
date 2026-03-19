@@ -3,7 +3,12 @@ title: Big Warmaster Game
 description: "A battle report for a large scale battle of Warmaster between a Bretonnian and Vampire Counts armies."
 layout: page
 includeGallery: true
-tags: warmaster
+date: 2026-03-02
+tags:
+  - warmaster
+  - battle-report
+thumbnail: /battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg
+thumbnailAlt: Bretonnian and Vampire Counts armies clash in a big Warmaster game
 ---
 # Big Warmaster Game
 
