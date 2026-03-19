@@ -41,7 +41,18 @@
   <main>
  
     <div class="container">
-      
+
+      {% if breadcrumbs %}
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          {% for crumb in breadcrumbs %}
+          <li class="breadcrumb-item"><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+          {% endfor %}
+          <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+        </ol>
+      </nav>
+      {% endif %}
+
       {{ content | safe }}
 
     </div>

@@ -9,6 +9,11 @@ tags:
   - battle-report
 thumbnail: /battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg
 thumbnailAlt: Bretonnian and Vampire Counts armies clash in a big Warmaster game
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Battle Reports
+    url: /battle-reports/
 ---
 # Big Warmaster Game
 
