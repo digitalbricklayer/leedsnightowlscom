@@ -48,7 +48,7 @@
           {% for crumb in breadcrumbs %}
           <li class="breadcrumb-item"><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
           {% endfor %}
-          <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+          <li class="breadcrumb-item active" aria-current="page">{{ breadcrumbLabel or title }}</li>
         </ol>
       </nav>
       {% endif %}

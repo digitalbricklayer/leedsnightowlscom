@@ -6,6 +6,11 @@ eleventyNavigation:
   parent: Games
   key: Game Stats
   order: 12
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Games
+    url: /games/
 ---
 # Leeds Night Owls Game Statistics
 
