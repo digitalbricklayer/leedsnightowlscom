@@ -18,7 +18,7 @@ breadcrumbLabel: Games Played Statistics
 
 At Leeds Night Owls we play an awful lot of games. This page gives a collation of the games played over the last two completed quarters. The tables are intended to give an indication of the games we at Night Owls play and how often. As you may notice, there are a few games that are staples at the club, as well as a lot of games we dip in and out quite a lot.
 
-Please note that the *times played* number represents whether a game was played at the club at a specific meeting. It does not count the total number of games of the specific game have beeb played. For example, if Bolt Action is played on three tables at a specific meeting, Bolt Action would be given one count in the table.
+Please note that the *times played* number represents whether a game was played at the club at a specific meeting. It does not count the total number of games of the specific game has been played. For example, if Bolt Action is played on three tables at a specific meeting, Bolt Action would be given one count in the table.
 
 ## Winter 2024-25
 
