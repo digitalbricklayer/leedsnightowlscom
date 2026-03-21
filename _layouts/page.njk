@@ -14,7 +14,31 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:image" content="{{ site.url }}/public/img/leeds-night-owls-logo.png">
+  <meta property="og:image" content="{{ site.url }}{{ thumbnail if thumbnail else '/public/img/leeds-night-owls-logo.png' }}">
+  {%- if breadcrumbs %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {%- for crumb in breadcrumbs %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": {{ crumb.title | dump | safe }},
+        "item": "{{ site.url }}{{ crumb.url }}"
+      }{{ "," if not loop.last }}
+      {%- endfor %},
+      {
+        "@type": "ListItem",
+        "position": {{ breadcrumbs | length + 1 }},
+        "name": {{ (breadcrumbLabel or title) | dump | safe }},
+        "item": "{{ site.url }}{{ page.url }}"
+      }
+    ]
+  }
+  </script>
+  {%- endif %}
   {%- if tags and "battle-report" in tags %}
   <script type="application/ld+json">
   {
