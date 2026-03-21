@@ -2,15 +2,78 @@
 title: "Events at Leeds Night Owls | Leeds Night Owls Wargames Club"
 description: "Find upcoming wargaming events at Leeds Night Owls Wargames Club, including tournaments, open days, and special games nights."
 layout: page
-eleventyImport: 
+eleventyNavigation:
+  key: Events
+  order: 6
+eleventyImport:
   collections: ["event"]
+breadcrumbs:
+  - title: Home
+    url: /
+breadcrumbLabel: Events
 ---
 
 <h1>Events at Leeds Night Owls</h1>
-<p>Upcoming events to look forward to at Leeds Night Owls.</p>
+<p>Tournaments, open days, and special games nights at Leeds Night Owls.</p>
 
-<ul>
-{%- for event in collections.event -%}
-  <li><a href="{{ event.url }}">{{ event.data.title }}</a></li>
-{%- endfor -%}
-</ul>
+{% set upcomingEvents = [] %}
+{% set pastEvents = [] %}
+{% for event in collections.event %}
+  {% if event.data.eventDate > now %}
+    {% set upcomingEvents = (upcomingEvents.push(event), upcomingEvents) %}
+  {% else %}
+    {% set pastEvents = (pastEvents.push(event), pastEvents) %}
+  {% endif %}
+{% endfor %}
+
+<h2 class="mt-4">Upcoming Events</h2>
+
+{% if upcomingEvents.length == 0 %}
+<p class="text-muted">There are no upcoming events scheduled at the moment. Check back soon, or <a href="/contact-us/">get in touch</a> to find out what's being planned.</p>
+{% else %}
+  {% for event in upcomingEvents %}
+  <div class="row mb-4 border-bottom pb-4">
+    {% if event.data.thumbnail %}
+    <div class="col-md-4">
+      <a href="{{ event.url }}">
+        <img src="{{ event.data.thumbnail }}" alt="{{ event.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+      </a>
+    </div>
+    <div class="col-md-8">
+    {% else %}
+    <div class="col-12">
+    {% endif %}
+      <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
+      <p class="text-muted">{{ event.data.eventDate | readableDate }}</p>
+      {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
+      <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
+
+<h2 class="mt-5">Past Events</h2>
+
+{% if pastEvents.length == 0 %}
+<p class="text-muted">No past events recorded.</p>
+{% else %}
+  {% for event in pastEvents | reverse %}
+  <div class="row mb-4 border-bottom pb-4">
+    {% if event.data.thumbnail %}
+    <div class="col-md-4">
+      <a href="{{ event.url }}">
+        <img src="{{ event.data.thumbnail }}" alt="{{ event.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+      </a>
+    </div>
+    <div class="col-md-8">
+    {% else %}
+    <div class="col-12">
+    {% endif %}
+      <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
+      <p class="text-muted">{{ event.data.eventDate | readableDate }}</p>
+      {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
+      <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
