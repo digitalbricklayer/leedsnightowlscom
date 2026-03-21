@@ -7,7 +7,7 @@
   <meta name="description" content="{{ description }}">
   {%- set draft = page.data.draft %}
   {%- if not draft  %}
-  <meta name="canonical" content="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {%- endif %}
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
