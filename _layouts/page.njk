@@ -15,6 +15,10 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:image" content="{{ site.url }}{{ thumbnail if thumbnail else '/public/img/leeds-night-owls-logo.png' }}">
+  <meta name="twitter:card" content="{{ 'summary_large_image' if thumbnail else 'summary' }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ thumbnail if thumbnail else '/public/img/leeds-night-owls-logo.png' }}">
   {%- if breadcrumbs %}
   <script type="application/ld+json">
   {
