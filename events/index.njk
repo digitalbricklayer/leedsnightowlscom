@@ -57,7 +57,7 @@ breadcrumbLabel: Events
 {% if pastEvents.length == 0 %}
 <p class="text-muted">No past events recorded.</p>
 {% else %}
-  {% for event in pastEvents | reverse %}
+  {% for event in pastEvents | sort(true, false, "data.eventDate") %}
   <div class="row mb-4 border-bottom pb-4">
     {% if event.data.thumbnail %}
     <div class="col-md-4">
