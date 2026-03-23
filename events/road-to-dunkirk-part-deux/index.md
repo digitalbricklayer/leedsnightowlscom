@@ -16,13 +16,13 @@ breadcrumbs:
 
 # Road to Dunkirk Part Deux: Arras Counter-Attack
 
-Leeds Night Owls is hosting a 'Fall of France' campaign, an enjoyable series of non-competitive games for all participants. This event is a follow up to the very exciting part one that took place at the end of 2025 at Leeds Night Owls.
+Leeds Night Owls is hosting a [Fall of France campaign](/campaigns/road-to-dunkirk/), an enjoyable series of non-competitive games for all participants. This event is a follow up to the very exciting part one that took place at the end of 2025 at Leeds Night Owls.
 
 ## Introduction
 
 The event will be a multi-player game of [Bolt Action](/games/bolt-action/) focusing in on the events surrounding the fall of France in the summer of 1940. This scenario recreates the British counter-attack at Arras on May 21, 1940. The Germans, focused on their advance, suddenly face determined British resistance.
 
-<img src="images/643375197_26128968433401590_4019619997416470584_n.jpg" class="img-thumbnail rounded mx-auto d-block" width="800" height="auto" alt="Cover art for the Road to Dunkirk campaign">
+<img src="/campaigns/road-to-dunkirk/images/643375197_26128968433401590_4019619997416470584_n.jpg" class="img-thumbnail rounded mx-auto d-block" width="800" height="auto" alt="Cover art for the Road to Dunkirk campaign">
 
 ## Forces
 Attacker (British) - 1250 points – Early War British

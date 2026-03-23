@@ -1,0 +1,78 @@
+---
+title: Campaigns at Leeds Night Owls
+description: "Campaigns are a series of linked wargames run by Leeds Night Owls."
+layout: page
+eleventyNavigation:
+  key: Campaigns
+  order: 6
+eleventyImport:
+  collections: ["campaign"]
+breadcrumbs:
+  - title: Home
+    url: /
+breadcrumbLabel: Campaigns
+---
+
+{% set currentCampaigns = [] %}
+{% set pastCampaigns = [] %}
+{% for campaign in collections.campaign %}
+  {% if campaign.data.activeCampaign %}
+    {% set currentCampaigns = (currentCampaigns.push(campaign), currentCampaigns) %}
+  {% else %}
+    {% set pastCampaigns = (pastCampaigns.push(campaign), pastCampaigns) %}
+  {% endif %}
+{% endfor %}
+
+<h1>Campaigns at Leeds Night Owls</h1>
+<p>Leeds Night Owls runs a number of campaigns, from the American Civil War to the Second World War and beyond.</p>
+
+<h2 class="mt-4">Active Campaigns</h2>
+
+{% if currentCampaigns.length == 0 %}
+<p class="text-muted">There are no active campaigns active at the moment. Check back soon, or <a href="/contact-us/">get in touch</a> to find out what's being planned.</p>
+{% else %}
+  {% for campaign in currentCampaigns %}
+  <div class="row mb-4 border-bottom pb-4">
+    {% if campaign.data.thumbnail %}
+    <div class="col-md-4">
+      <a href="{{ campaign.url }}">
+        <img src="{{ campaign.data.thumbnail }}" alt="{{ campaign.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+      </a>
+    </div>
+    <div class="col-md-8">
+    {% else %}
+    <div class="col-12">
+    {% endif %}
+      <h3><a href="{{ campaign.url }}" class="text-decoration-none">{{ campaign.data.title }}</a></h3>
+      {% if campaign.data.description %}<p>{{ campaign.data.description }}</p>{% endif %}
+      <a href="{{ campaign.url }}" class="btn btn-outline-secondary btn-sm">View campaign</a>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
+
+<h2 class="mt-4">Past Campaigns</h2>
+
+{% if pastCampaigns.length == 0 %}
+<p class="text-muted">No past campaigns recorded.</p>
+{% else %}
+  {% for campaign in pastCampaigns | sort(true, false, "data.campaignDate") %}
+  <div class="row mb-4 border-bottom pb-4">
+    {% if campaign.data.thumbnail %}
+    <div class="col-md-4">
+      <a href="{{ campaign.url }}">
+        <img src="{{ campaign.data.thumbnail }}" alt="{{ campaign.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+      </a>
+    </div>
+    <div class="col-md-8">
+    {% else %}
+    <div class="col-12">
+    {% endif %}
+      <h3><a href="{{ campaign.url }}" class="text-decoration-none">{{ campaign.data.title }}</a></h3>
+      <p class="text-muted">{{ campaign.data.campaignDate | readableDate }}</p>
+      {% if campaign.data.description %}<p>{{ campaign.data.description }}</p>{% endif %}
+      <a href="{{ campaign.url }}" class="btn btn-outline-secondary btn-sm">View campaign</a>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
