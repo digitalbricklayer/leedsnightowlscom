@@ -18,7 +18,7 @@ breadcrumbs:
 
 # Road to Dunkirk Part Une: The German Blitzkrieg
 
-## Overview:
+## Overview
 
 This introductory scenario represents the initial German breakthrough in the Ardennes, where British forces are caught off guard and must hold out against an unexpected German advance.
 

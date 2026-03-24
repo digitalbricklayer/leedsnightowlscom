@@ -18,28 +18,28 @@ breadcrumbs:
 
 # Road to Dunkirk Part Trois: The Dunkirk Perimeter
 
-## Overview:
+## Overview
 
 This scenario represents a desperate rear-guard action as the BEF holds defensive positions to allow evacuation at Dunkirk.
 
-## Forces:
+## Forces
 
 Defender (British) - 1000 points - Early War British
 
 Attacker (German) - 1250 points – Early War German
 
-## Objective:
+## Objective
 
 The Germans win if they capture all objectives or eliminate 50% of the British force.
 
-## Deployment:
+## Deployment
 
 Meeting engagement.
 
-British - At the start of each British turn, roll a Morale check (value 8. If failed, remove a random unit (representing desertion). British forces begin fully deployed.
+British - At the start of each British turn, roll a Morale check (value 8). If failed, remove a random unit (representing desertion). British forces begin fully deployed.
 
 Germans - May conduct preparatory bombardments on Turns 1, 3, and 5. Entire force enters on Turn 1.
 
-## Board Setup:
+## Board Setup
 
 The board should depict the outskirts of Dunkirk, including fields, roads, and scattered buildings.
