@@ -1,6 +1,8 @@
 ---
 title: "Road to Dunkirk Part Deux: Arras Counter-Attack"
 description: "The second event in the Night Owls Fall of France campaign is a British counter-attack at Arras."
+thumbnail: /campaigns/road-to-dunkirk/images/643375197_26128968433401590_4019619997416470584_n.jpg
+thumbnailAlt: "Road to Dunkirk Campaign Logo"
 tags:
   - event
   - bolt action
