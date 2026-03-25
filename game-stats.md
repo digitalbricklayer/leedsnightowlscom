@@ -2,6 +2,7 @@
 title: Games Played Statistics at Leeds Night Owls
 description: "At Leeds Night Owls we play an awful lot of games. This page gives an indication about which games we play and how often. As you may notice, there are a few games that are staples at the club, as well as a lot of games we dip in and out quite a lot."
 layout: page
+permalink: /games/stats/
 eleventyNavigation:
   parent: Games
   key: Game Stats
