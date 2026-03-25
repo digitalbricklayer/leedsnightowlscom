@@ -11,7 +11,8 @@ const pagination = {
 const eleventyExcludeFromCollections = true;
 
 const eleventyComputed = {
-	title: "Tagged '{{ tag }}'",
+	title: "Tagged {{ tag }}",
+	description: "All pages tagged {{ tag }} at Leeds Night Owls",
 	layout: "page",
 	permalink: function(data) {
 		// If DuplicatePermalinkOutputError occurs, check that no tag occurs
