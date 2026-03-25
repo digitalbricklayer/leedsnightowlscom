@@ -1,7 +1,6 @@
 ---
 title: Bolt Action Battle Report American Airborne vs German SS 1000 points
 description: "A battle report for an encounter between US airborne versus German SS during World War 2 in Normandy using the Bolt Action rules"
-layout: page
 date: 2026-03-19
 slug: bolt-action-battle-report-march-15-2026
 tags:

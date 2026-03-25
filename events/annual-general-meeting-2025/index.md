@@ -3,7 +3,6 @@ title: "Annual General Meeting 2025 at Leeds Night Owls"
 description: "The Leeds Night Owls Wargames Club Annual General Meeting 2025 is scheduled for 12th January 2025 at The Cardigan Centre."
 tags: event
 slug: annual-general-meeting-2025
-layout: page
 eventDate: 2025-01-12
 breadcrumbs:
   - title: Home

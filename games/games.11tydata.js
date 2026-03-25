@@ -1,7 +1,7 @@
 export default function () {
   return {
     'contentType': 'games',
-    'layout': 'page.njk',
+    'layout': 'game.njk',
     'permalink': './games/{{ slug }}/index.html'
   }
 }

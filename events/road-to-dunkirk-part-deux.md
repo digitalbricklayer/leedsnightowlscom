@@ -8,7 +8,6 @@ tags:
   - bolt action
   - world war 2
 slug: road-to-dunkirk-part-deux
-layout: page
 eventDate: 2026-04-11
 breadcrumbs:
   - title: Home
