@@ -8,6 +8,7 @@ tags:
   - bolt action
   - world war 2
 layout: page
+slug: road-to-dunkirk-part-trois
 eventDate: TBC
 breadcrumbs:
   - title: Home

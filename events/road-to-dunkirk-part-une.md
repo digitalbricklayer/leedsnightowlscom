@@ -7,6 +7,7 @@ tags:
   - event
   - bolt action
   - world war 2
+slug: road-to-dunkirk-part-une
 layout: page
 eventDate: 2026-01-10
 breadcrumbs:
