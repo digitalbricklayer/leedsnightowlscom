@@ -4,16 +4,10 @@ description: "The first event in the Night Owls Fall of France campaign is the i
 thumbnail: /campaigns/road-to-dunkirk/images/643375197_26128968433401590_4019619997416470584_n.jpg
 thumbnailAlt: "Road to Dunkirk Campaign Logo"
 tags:
-  - event
   - bolt action
   - world war 2
 slug: road-to-dunkirk-part-une
 eventDate: 2026-01-10
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Events
-    url: /events/
 ---
 
 # Road to Dunkirk Part Une: The German Blitzkrieg

@@ -6,15 +6,9 @@ date: 2026-03-18
 tags:
   - team yankee
   - moderns
-  - battle-report
 includeGallery: true
 thumbnail: /battle-reports/landmunchen-tank-park/images/PXL_20250629_095231957.jpg
 thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Battle Reports
-    url: /battle-reports/
 ---
 
 # Landmunchen Tank Park

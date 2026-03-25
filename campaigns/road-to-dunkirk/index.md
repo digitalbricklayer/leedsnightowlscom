@@ -7,11 +7,6 @@ thumbnailAlt: "Road to Dunkirk Campaign Logo"
 tags:
   - bolt action
   - world war 2
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Campaigns
-    url: /campaigns/
 activeCampaign: true
 ---
 

@@ -1,14 +1,8 @@
 ---
 title: "Operation Nachteule 2017 Bolt Action Escalation Tournament"
 description: "Operation NACHTEULE is an open Bolt Action escalation tournament being hosted by the Leeds Night Owls within The Cardigan Centre on Sunday 25 June 2017."
-tags: event
 slug: operation-nachteule
 eventDate: 2017-06-25
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Events
-    url: /events/
 ---
 # Operation Nachteule 2017
 
