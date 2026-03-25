@@ -4,9 +4,8 @@ layout: page.njk
 
 <h1>{{ title }}</h1>
 
-{% if campaignGame or activeCampaign is defined %}
+{% if activeCampaign is defined %}
 <div class="d-flex gap-2 mb-3">
-  {% if campaignGame %}<a href="{{ campaignGameUrl }}"><span class="badge text-bg-secondary text-light">{{ campaignGame }}</span></a>{% endif %}
   {% if activeCampaign %}
     <span class="badge text-bg-success">Active</span>
   {% else %}
