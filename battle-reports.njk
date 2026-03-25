@@ -5,8 +5,6 @@ layout: page
 eleventyNavigation:
   key: Battle Reports
   order: 5
-eleventyImport:
-  collections: ["battle-report"]
 breadcrumbs:
   - title: Home
     url: /
@@ -16,7 +14,7 @@ breadcrumbLabel: Battle Reports
 <h1>Battle Reports at Leeds Night Owls</h1>
 <p>A few of the more notable games played at Night Owls that members have been kind enough to write up to give a flavour for the tabletop wargaming we do at the club.</p>
 
-{% for report in collections['battle-report'] | reverse %}
+{% for report in collections.battlereports | reverse %}
 <div class="row mb-4 border-bottom pb-4">
   <div class="col-md-4">
     <a href="{{ report.url }}">

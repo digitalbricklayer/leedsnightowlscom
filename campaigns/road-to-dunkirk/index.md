@@ -5,7 +5,6 @@ slug: road-to-dunkirk
 thumbnail: /campaigns/road-to-dunkirk/images/643375197_26128968433401590_4019619997416470584_n.jpg
 thumbnailAlt: "Road to Dunkirk Campaign Logo"
 tags:
-  - campaign
   - bolt action
   - world war 2
 breadcrumbs:

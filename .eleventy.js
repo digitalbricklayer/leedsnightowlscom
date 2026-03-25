@@ -25,4 +25,37 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginFilters);
+
+	/**
+     * Add collections - NOTE: do not put dashes in the collection name, otherwise 
+	 * it will not work in Nunjucks templates
+     */
+  
+	// Return all campaigns
+	eleventyConfig.addCollection("campaigns", function(collection) {
+		return collection.getAllSorted().filter(function(item) {
+			return item.data.contentType == "campaign";
+		});
+	});
+  
+	// Return all events
+	eleventyConfig.addCollection("events", function(collection) {
+		return collection.getAllSorted().filter(function(item) {
+			return item.data.contentType == "event";
+		});
+	});
+  
+	// Return all games
+	eleventyConfig.addCollection("games", function(collection) {
+		return collection.getAllSorted().filter(function(item) {
+			return item.data.contentType == "game";
+		});
+	});
+  
+	// Return all battle reports
+	eleventyConfig.addCollection("battlereports", function(collection) {
+		return collection.getAllSorted().filter(function(item) {
+			return item.data.contentType == "battle-report";
+		});
+	});
 };

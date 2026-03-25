@@ -5,8 +5,6 @@ layout: page
 eleventyNavigation:
   key: Events
   order: 6
-eleventyImport:
-  collections: ["event"]
 breadcrumbs:
   - title: Home
     url: /
@@ -18,7 +16,7 @@ breadcrumbLabel: Events
 
 {% set upcomingEvents = [] %}
 {% set pastEvents = [] %}
-{% for event in collections.event %}
+{% for event in collections.events %}
   {% if event.data.eventDate > now or event.data.eventDate == 'TBC' %}
     {% set upcomingEvents = (upcomingEvents.push(event), upcomingEvents) %}
   {% else %}
