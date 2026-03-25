@@ -8,11 +8,11 @@ tags:
   - bolt action
   - world war 2
 activeCampaign: true
+campaignGame: "Bolt Action"
+campaignGameUrl: "/games/bolt-action/"
 ---
 
-# Road to Dunkirk Bolt Action Campaign
-
-Leeds Night Owls is hosting a *Fall of France* campaign set during 1940, an enjoyable series of non-competitive games for all participants. The campaign will use the Bolt Action rules.
+Leeds Night Owls is hosting a *Fall of France* campaign set during 1940, an enjoyable series of non-competitive games for all participants. The campaign will use the [Bolt Action](/games/bolt-action/) rules.
 
 ## Upcoming Events
 

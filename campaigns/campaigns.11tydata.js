@@ -1,7 +1,7 @@
 export default function () {
   return {
     'contentType': 'campaign',
-    'layout': 'page.njk',
+    'layout': 'campaign.njk',
     'permalink': './campaigns/{{ slug }}/index.html',
     'tags': ['campaign'],
     'breadcrumbs': [ 
