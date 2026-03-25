@@ -2,6 +2,7 @@
 title: Landmunchen Tank Park
 description: A day of reckoning for the Soviets on an overcast day near Landmunchen in Germany.
 layout: page
+slug: landmunchen-tank-park
 date: 2026-03-18
 tags:
   - team yankee

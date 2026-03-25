@@ -4,6 +4,7 @@ description: "A battle report for a large scale battle of Warmaster between a Br
 layout: page
 includeGallery: true
 date: 2026-03-02
+slug: big-warmaster-game
 tags:
   - warmaster
   - battle-report
