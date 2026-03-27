@@ -7,6 +7,7 @@ tags:
   - bolt action
   - world war 2
 slug: road-to-dunkirk-part-une
+campaign: road-to-dunkirk
 eventDate: 2026-01-10
 ---
 

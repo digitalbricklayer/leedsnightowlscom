@@ -7,6 +7,7 @@ tags:
   - bolt action
   - world war 2
 slug: road-to-dunkirk-part-trois
+campaign: road-to-dunkirk
 eventDate: TBC
 ---
 

@@ -15,3 +15,70 @@ layout: page.njk
 {% endif %}
 
 {{ content | safe }}
+
+{% set campaignEvents = [] %}
+{% for event in collections.events %}
+  {% if event.data.campaign == slug %}
+    {% set campaignEvents = (campaignEvents.push(event), campaignEvents) %}
+  {% endif %}
+{% endfor %}
+
+{% if campaignEvents.length > 0 %}
+
+{% set upcomingEvents = [] %}
+{% set pastEvents = [] %}
+{% for event in campaignEvents %}
+  {% if event.data.eventDate > now or event.data.eventDate == 'TBC' %}
+    {% set upcomingEvents = (upcomingEvents.push(event), upcomingEvents) %}
+  {% else %}
+    {% set pastEvents = (pastEvents.push(event), pastEvents) %}
+  {% endif %}
+{% endfor %}
+
+{% if upcomingEvents.length > 0 %}
+<h2>Upcoming Events</h2>
+{% for event in upcomingEvents %}
+<div class="row mb-4 border-bottom pb-4">
+  {% if event.data.thumbnail %}
+  <div class="col-md-4">
+    <a href="{{ event.url }}">
+      <img src="{{ event.data.thumbnail }}" alt="{{ event.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+    </a>
+  </div>
+  <div class="col-md-8">
+  {% else %}
+  <div class="col-12">
+  {% endif %}
+    <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
+    <p class="text-muted">{% if event.data.eventDate != 'TBC' %}{{ event.data.eventDate | readableDate }}{% else %}TBC{% endif %}</p>
+    {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
+    <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if pastEvents.length > 0 %}
+<h2>Past Events</h2>
+{% for event in pastEvents | sort(true, false, "data.eventDate") %}
+<div class="row mb-4 border-bottom pb-4">
+  {% if event.data.thumbnail %}
+  <div class="col-md-4">
+    <a href="{{ event.url }}">
+      <img src="{{ event.data.thumbnail }}" alt="{{ event.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+    </a>
+  </div>
+  <div class="col-md-8">
+  {% else %}
+  <div class="col-12">
+  {% endif %}
+    <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
+    <p class="text-muted">{{ event.data.eventDate | readableDate }}</p>
+    {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
+    <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% endif %}
