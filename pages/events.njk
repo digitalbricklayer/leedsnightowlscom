@@ -30,7 +30,16 @@ breadcrumbLabel: Events
 {% if upcomingEvents.length == 0 %}
 <p class="text-muted">There are no upcoming events scheduled at the moment. Check back soon, or <a href="/contact-us/">get in touch</a> to find out what's being planned.</p>
 {% else %}
+  {% set tbcEvents = [] %}
+  {% set datedEvents = [] %}
   {% for event in upcomingEvents %}
+    {% if event.data.eventDate == 'TBC' %}
+      {% set tbcEvents = (tbcEvents.push(event), tbcEvents) %}
+    {% else %}
+      {% set datedEvents = (datedEvents.push(event), datedEvents) %}
+    {% endif %}
+  {% endfor %}
+  {% for event in tbcEvents %}
   <div class="row mb-4 border-bottom pb-4">
     {% if event.data.thumbnail %}
     <div class="col-md-4">
@@ -43,7 +52,26 @@ breadcrumbLabel: Events
     <div class="col-12">
     {% endif %}
       <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
-      <p class="text-muted">{% if event.data.eventDate != 'TBC' %}{{ event.data.eventDate | readableDate }}{% else %}TBC{% endif %}</p>
+      <p class="text-muted">TBC</p>
+      {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
+      <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
+    </div>
+  </div>
+  {% endfor %}
+  {% for event in datedEvents | sort(false, false, "data.eventDate") %}
+  <div class="row mb-4 border-bottom pb-4">
+    {% if event.data.thumbnail %}
+    <div class="col-md-4">
+      <a href="{{ event.url }}">
+        <img src="{{ event.data.thumbnail }}" alt="{{ event.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+      </a>
+    </div>
+    <div class="col-md-8">
+    {% else %}
+    <div class="col-12">
+    {% endif %}
+      <h3><a href="{{ event.url }}" class="text-decoration-none">{{ event.data.title }}</a></h3>
+      <p class="text-muted">{{ event.data.eventDate | readableDate }}</p>
       {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
       <a href="{{ event.url }}" class="btn btn-outline-secondary btn-sm">View event</a>
     </div>
