@@ -1,7 +1,7 @@
 export default function () {
   return {
     'contentType': 'battle-report',
-    'layout': 'page.njk',
+    'layout': 'battle-report.njk',
     'permalink': './battle-reports/{{ slug }}/index.html',
     'tags': ['battle-report'],
     'breadcrumbs': [ 

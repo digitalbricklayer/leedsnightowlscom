@@ -1,3 +1,7 @@
+---
+metaContentType: website
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +16,7 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{{ metaContentType }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:image" content="{{ site.url }}{{ thumbnail if thumbnail else '/public/img/leeds-night-owls-logo.png' }}">
   <meta name="twitter:card" content="{{ 'summary_large_image' if thumbnail else 'summary' }}">
