@@ -5,7 +5,8 @@
   "workers_dev": false,
   "assets": {
     "directory": "./_site/",
-    "not_found_behavior": "404-page"
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
   },
   "send_email": [
     {
