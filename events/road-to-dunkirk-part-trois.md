@@ -1,6 +1,6 @@
 ---
 title: "Road to Dunkirk Part Trois: The Dunkirk Perimeter"
-description: "The third event in the Night Owls Fall of France campaign is a deperate read-guard action as the BEF holds defensive positions at Dunkirk."
+description: "The third event in the Night Owls Fall of France campaign is a deperate rear-guard action as the BEF holds defensive positions at Dunkirk."
 thumbnail: /campaigns/road-to-dunkirk/images/643375197_26128968433401590_4019619997416470584_n.jpg
 thumbnailAlt: "Road to Dunkirk Campaign Logo"
 tags:
