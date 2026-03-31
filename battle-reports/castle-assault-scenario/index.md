@@ -8,6 +8,7 @@ tags:
   - warmaster
 thumbnail: /battle-reports/castle-assault-scenario/images/FB_IMG_1773842372914.jpg
 thumbnailAlt: The castle prior to the undead assault
+game: warmaster
 ---
 
 # Tomb King Ey-ap Storms the Elven Castle of Limeswold

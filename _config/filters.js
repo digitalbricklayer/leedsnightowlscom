@@ -41,6 +41,13 @@ export default function(eleventyConfig) {
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
 
+	// Filter a collection by the game slug
+	eleventyConfig.addFilter("battleReportsForGame", (collection, gameSlug) => {
+		return (collection || [])
+			.filter(item => item.data.game === gameSlug)
+			.sort((a, b) => b.data.date - a.data.date);
+	});
+
 	// Custom filter to capitalize each word in a string
 	eleventyConfig.addFilter("capitalizeWords", function capitalizeWords(value) {
 		if (typeof value !== 'string') {

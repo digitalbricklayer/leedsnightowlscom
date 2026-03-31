@@ -4,6 +4,19 @@ layout: page
 
 {{ content | safe }}
 
+<h2>Battle Reports</h2>
+{%- set gameBattleReports = collections.battlereports | battleReportsForGame(slug) %}
+{%- if gameBattleReports.length %}
+<p>Battle reports from our games:</p>
+<ul>
+  {%- for report in gameBattleReports %}
+  <li><a href="{{ report.url }}">{{ report.data.title }}</a></li>
+  {%- endfor %}
+</ul>
+{% else %}
+<p>No battle reports yet.</p>
+{%- endif %}
+
 <div class="d-flex flex-wrap gap-2 mt-3">
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
