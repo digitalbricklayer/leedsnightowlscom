@@ -5,10 +5,10 @@ includeGallery: true
 date: 2026-03-02
 slug: big-warmaster-game
 tags:
-  - warmaster
+  - warmaster-revolution
 thumbnail: /battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg
 thumbnailAlt: Bretonnian and Vampire Counts armies clash in a big Warmaster game
-game: warmaster
+game: warmaster-revolution
 ---
 # Big Warmaster Game
 

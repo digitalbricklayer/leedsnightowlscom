@@ -1,14 +1,14 @@
 ---
 title: Tomb King Ey-ap Storms the Elven Castle of Limeswold
-description: "A Warmaster battle report of the Tomb King Ey-ap storming the Elven castle of Limeswold."
+description: "A Warmaster Revolution battle report of the Tomb King Ey-ap storming the Elven castle of Limeswold."
 slug: castle-assault-scenario
 includeGallery: true
 date: 2026-03-18
 tags:
-  - warmaster
+  - warmaster-revolution
 thumbnail: /battle-reports/castle-assault-scenario/images/FB_IMG_1773842372914.jpg
 thumbnailAlt: The castle prior to the undead assault
-game: warmaster
+game: warmaster-revolution
 ---
 
 # Tomb King Ey-ap Storms the Elven Castle of Limeswold
