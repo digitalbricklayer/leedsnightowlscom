@@ -7,14 +7,23 @@ layout: page
 <h2>Battle Reports</h2>
 {%- set gameBattleReports = collections.battlereports | battleReportsForGame(slug) %}
 {%- if gameBattleReports.length %}
-<p>Battle reports from our games:</p>
-<ul>
-  {%- for report in gameBattleReports %}
-  <li><a href="{{ report.url }}">{{ report.data.title }}</a></li>
-  {%- endfor %}
-</ul>
+{%- for report in gameBattleReports %}
+<div class="row mb-4 border-bottom pb-4">
+  <div class="col-md-4">
+    <a href="{{ report.url }}">
+      <img src="{{ report.data.thumbnail }}" alt="{{ report.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+    </a>
+  </div>
+  <div class="col-md-8">
+    <h3><a href="{{ report.url }}" class="text-decoration-none">{{ report.data.title }}</a></h3>
+    <p class="text-muted">{{ report.date | readableDate }}</p>
+    {% if report.data.description %}<p>{{ report.data.description }}</p>{% endif %}
+    <a href="{{ report.url }}" class="btn btn-outline-secondary btn-sm">Read battle report</a>
+  </div>
+</div>
+{%- endfor %}
 {% else %}
-<p>No battle reports yet.</p>
+<p>No battle reports for this game yet.</p>
 {%- endif %}
 
 <div class="d-flex flex-wrap gap-2 mt-3">
