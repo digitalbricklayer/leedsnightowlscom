@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+The 11ty source code is in the `src` directory.
+
 ## Build & Development Commands
 
 ```bash

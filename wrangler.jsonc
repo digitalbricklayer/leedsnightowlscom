@@ -1,10 +1,10 @@
 {
   "name": "leedsnightowlscom",
-  "main": "worker/index.js",
+  "main": "src/worker/index.js",
   "compatibility_date": "2026-01-02",
   "workers_dev": false,
   "assets": {
-    "directory": "./_site/",
+    "directory": "./src/_site/",
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash"
   },
