@@ -4,6 +4,38 @@ layout: page
 
 {{ content | safe }}
 
+<h2>Campaigns</h2>
+{%- set gameCampaigns = collections.campaigns | campaignsForGame(slug) %}
+{%- if gameCampaigns.length %}
+{%- for campaign in gameCampaigns %}
+<div class="row mb-4 border-bottom pb-4">
+  {% if campaign.data.thumbnail %}
+  <div class="col-md-4">
+    <a href="{{ campaign.url }}">
+      <img src="{{ campaign.data.thumbnail }}" alt="{{ campaign.data.thumbnailAlt }}" class="img-fluid rounded" style="max-height: 220px; width: 100%; object-fit: cover;">
+    </a>
+  </div>
+  <div class="col-md-8">
+  {% else %}
+  <div class="col-12">
+  {% endif %}
+    <h3><a href="{{ campaign.url }}" class="text-decoration-none">{{ campaign.data.title }}</a></h3>
+    <div class="mb-2">
+      {% if campaign.data.activeCampaign %}
+        <span class="badge text-bg-success">Active</span>
+      {% else %}
+        <span class="badge text-bg-light text-dark border">Completed</span>
+      {% endif %}
+    </div>
+    {% if campaign.data.description %}<p>{{ campaign.data.description }}</p>{% endif %}
+    <a href="{{ campaign.url }}" class="btn btn-outline-secondary btn-sm">View campaign</a>
+  </div>
+</div>
+{%- endfor %}
+{% else %}
+<p>No campaigns for this game yet.</p>
+{%- endif %}
+
 <h2>Battle Reports</h2>
 {%- set gameBattleReports = collections.battlereports | battleReportsForGame(slug) %}
 {%- if gameBattleReports.length %}

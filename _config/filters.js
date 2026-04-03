@@ -48,6 +48,13 @@ export default function(eleventyConfig) {
 			.sort((a, b) => b.data.date - a.data.date);
 	});
 
+	// Filter a collection by the game slug, active campaigns first
+	eleventyConfig.addFilter("campaignsForGame", (collection, gameSlug) => {
+		return (collection || [])
+			.filter(item => item.data.game === gameSlug)
+			.sort((a, b) => (b.data.activeCampaign ? 1 : 0) - (a.data.activeCampaign ? 1 : 0));
+	});
+
 	// Custom filter to capitalize each word in a string
 	eleventyConfig.addFilter("capitalizeWords", function capitalizeWords(value) {
 		if (typeof value !== 'string') {
