@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "test:links": "linkinator ./_site --recurse --markdown --skip \"\\.(?:png|jpg|jpeg|gif|tiff|bmp|svg|webp|ico|js)$\" --skip \"^https?://\""
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,8 @@
     "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5"
+  },
+  "devDependencies": {
+    "linkinator": "^7.6.1"
   }
 }
