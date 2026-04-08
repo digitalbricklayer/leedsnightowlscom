@@ -58,7 +58,7 @@ breadcrumbLabel: Events
     </div>
   </div>
   {% endfor %}
-  {% for event in datedEvents | sort(false, false, "data.eventDate") %}
+  {% for event in datedEvents | sortEventsByDateDesc %}
   <div class="row mb-4 border-bottom pb-4">
     {% if event.data.thumbnail %}
     <div class="col-md-4">
@@ -84,7 +84,7 @@ breadcrumbLabel: Events
 {% if pastEvents.length == 0 %}
 <p class="text-muted">No past events recorded.</p>
 {% else %}
-  {% for event in pastEvents | sort(true, false, "data.eventDate") %}
+  {% for event in pastEvents | sortEventsByDateDesc %}
   <div class="row mb-4 border-bottom pb-4">
     {% if event.data.thumbnail %}
     <div class="col-md-4">

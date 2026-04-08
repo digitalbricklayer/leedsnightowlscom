@@ -55,6 +55,16 @@ export default function(eleventyConfig) {
 			.sort((a, b) => (b.data.activeCampaign ? 1 : 0) - (a.data.activeCampaign ? 1 : 0));
 	});
 
+	// Sort events by eventDate ascending (soonest first)
+	eleventyConfig.addFilter("sortEventsByDateAsc", (events) => {
+		return [...events].sort((a, b) => a.data.eventDate - b.data.eventDate);
+	});
+
+	// Sort events by eventDate descending (most recent first)
+	eleventyConfig.addFilter("sortEventsByDateDesc", (events) => {
+		return [...events].sort((a, b) => b.data.eventDate - a.data.eventDate);
+	});
+
 	// Custom filter to capitalize each word in a string
 	eleventyConfig.addFilter("capitalizeWords", function capitalizeWords(value) {
 		if (typeof value !== 'string') {
