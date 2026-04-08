@@ -12,10 +12,9 @@ thumbnailAlt: "Bolt Action Armoured Clash Logo"
 
 # Bolt Action Armoured Clash 5
 
-The game will be held on 7th June 2026 during a [regular Leeds Night Owls meeting](/meetings/) at:
-The Cardigan Centre,
-145 - 149 Cardigan Road,
-Leeds LS6 1LJ, UK
+A multi-player game of Bolt Action that will focus on large scale armoured combat set during World War 2. The game will be held on 7th June 2026 during a [regular Leeds Night Owls club meeting](/meetings/).
+
+The game is open to all members of the Leeds Night Owls club.
 
 ## Army Composition
 Each player must build an 800-point list.
