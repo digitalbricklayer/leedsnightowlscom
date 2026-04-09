@@ -7,7 +7,7 @@ tags:
   - team yankee
   - moderns
 includeGallery: true
-thumbnail: /battle-reports/landmunchen-tank-park/images/PXL_20250629_095231957.jpg
+thumbnail: /battle-reports/landmunchen-tank-park/images/thumbnail.jpg
 thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
 game: team-yankee
 ---
