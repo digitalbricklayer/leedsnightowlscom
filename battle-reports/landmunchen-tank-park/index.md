@@ -1,6 +1,6 @@
 ---
 title: Landmunchen Tank Park
-description: A day of reckoning for the Soviets on an overcast day near Landmunchen in Germany.
+description: A day of reckoning for the Soviets on an overcast day near Landmunchen in West Germany.
 slug: landmunchen-tank-park
 date: 2026-03-18
 tags:
@@ -12,9 +12,7 @@ thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
 game: team-yankee
 ---
 
-# Landmunchen Tank Park
-
-The day of reckoning had arrived at last for the US armoured company waiting on the wide open plains of Germany at Landmunchen. Arrayed against them were the elite of the Soviet Army. The US personnel knew that the Soviets would soon be hurtling straight towards them.
+The day of reckoning had arrived at last for the US armoured company waiting on the wide open plains of West Germany at Landmunchen. Arrayed against them were the elite of the Soviet Army. The US personnel knew that the Soviets would soon be hurtling straight towards them.
 
 ![A Crude Battle Map](./images/Landmunchen-Team-Yankee-Scenario.png)
 

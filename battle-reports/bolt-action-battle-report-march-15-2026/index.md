@@ -12,8 +12,6 @@ thumbnailAlt: US Airborne waiting for the off
 game: bolt-action
 ---
 
-# Bolt Action Battle Report American Airborne vs German SS 1000 points
-
 15th March 2026 Dylan vs Martin
 
 The US Airborne deployed in a nice steady battle line across the battlefield. The Germans decided to keep a Stug and Sdkfz 222 in reserve. Only a couple of squads with SS to hold back the tidal wave of US Airborne coming their way and taking advantage of cover to duck behind a low wall or a couple of abandoned houses.

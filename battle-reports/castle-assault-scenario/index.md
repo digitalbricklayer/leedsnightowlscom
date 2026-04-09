@@ -11,8 +11,6 @@ thumbnailAlt: The castle prior to the undead assault
 game: warmaster-revolution
 ---
 
-# Tomb King Ey-ap Storms the Elven Castle of Limeswold
-
 With the news that the dread Tomb King Ey-ap has been gathering his forces to invade the lands of the Elves, Lord Zinfandel Glykolwein has been despatched to hold the small border fortress of Limeswold against a possible incursion of the undead.
 
 Lord Zinfandel arrives in time to evacuate the local townsfolk and farmers and ready the defences against any possible invaders. The last to the farmers and their carts have departed when he is called to the battlements.

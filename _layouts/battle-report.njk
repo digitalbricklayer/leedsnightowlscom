@@ -5,6 +5,19 @@ layout: page.njk
 
 <article>
 
+<h1>{{ title }}</h1>
+
+{%- if tags | filterTagList | length %}
+<div class="d-flex flex-wrap gap-2 mb-3">
+  {%- for tag in tags | filterTagList %}
+  {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <a href="{{ tagUrl }}" class="badge rounded-pill text-bg-secondary text-decoration-none fs-6 fw-normal">
+    <i class="bi bi-tag me-1"></i>{{ tag }}
+  </a>
+  {%- endfor %}
+</div>
+{%- endif %}
+
 {{ content | safe }}
 
 </article>

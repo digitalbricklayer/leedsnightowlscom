@@ -10,8 +10,6 @@ thumbnail: /battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg
 thumbnailAlt: Bretonnian and Vampire Counts armies clash in a big Warmaster game
 game: warmaster-revolution
 ---
-# Big Warmaster Game
-
 Or rather, a game of [Warmaster Revolution](/games/warmaster-revolution/) with big figures.
 
 The figures from way back when I actually played Warhammer Fantasy. I had just enough figures left in dusty boxes to create a Bretonnian and a Vampire Counts army. Only a few pieces needed to be printed and painted (Pegasus Knights are 10mm figures scaled up, came out OK). I based one cavalry figure and two infantry to a base to make reasonable looking units.
