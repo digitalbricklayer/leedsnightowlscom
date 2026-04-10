@@ -2,6 +2,7 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginGallery from "./modules/eleventy-plugin-gallery/.eleventy.js";
 import pluginFilters from "./_config/filters.js";
+import pluginShortcodes from "./_config/shortcodes.js";
 
 export default (eleventyConfig) => {
 	eleventyConfig.setLayoutsDirectory("_layouts");
@@ -25,6 +26,7 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginFilters);
+	eleventyConfig.addPlugin(pluginShortcodes);
 
 	/**
      * Add collections - NOTE: do not put dashes in the collection name, otherwise 
