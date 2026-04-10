@@ -27,3 +27,4 @@ test/stubs-layout-cache/_includes/*.js
 nul
 
 .claude/settings.local.json
+.playwright-mcp/
