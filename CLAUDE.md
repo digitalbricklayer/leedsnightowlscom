@@ -28,20 +28,20 @@ Output directory: `_site/`
 ## Architecture
 
 ### Content Flow
-Pages can be `.njk`, `.html`, or `.md` files in the root or subdirectories. Eleventy processes them using:
-- `_layouts/page.njk` - Base page layout with Bootstrap structure
-- `_includes/navigation.njk` - main menu using 11ty navigation plugin
+All site source content lives in the `src/` directory. Pages can be `.njk`, `.html`, or `.md` files in `src/` or its subdirectories. Eleventy processes them using:
+- `src/_layouts/page.njk` - Base page layout with Bootstrap structure
+- `src/_includes/navigation.njk` - main menu using 11ty navigation plugin
 
 ### Data
-- `_data/site.json` - Global site configuration (name, URL)
+- `src/_data/site.json` - Global site configuration (name, URL)
 - Front-matter in content files defines page metadata
 
 ### Collections
 Events use `tags: event` in front-matter to create the events collection, referenced via `eleventyImport` in templates.
 
 ### Static Assets
-- `public/` - Copied to output root (images, redirects)
-- `css/` - Stylesheets bundled per-page via eleventy-plugin-bundle
+- `src/public/` - Copied to output root (images, redirects)
+- `src/_includes/css/` - Stylesheets bundled per-page via eleventy-plugin-bundle
 
 ## Deployment
 
