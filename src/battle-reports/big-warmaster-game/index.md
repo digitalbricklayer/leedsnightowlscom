@@ -9,6 +9,7 @@ tags:
 thumbnail: /battle-reports/big-warmaster-game/images/FB_IMG_1772481630149.jpg
 thumbnailAlt: Bretonnian and Vampire Counts armies clash in a big Warmaster game
 game: warmaster-revolution
+author: Mark Unitt
 ---
 Or rather, a game of [Warmaster Revolution](/games/warmaster-revolution/) with big figures.
 

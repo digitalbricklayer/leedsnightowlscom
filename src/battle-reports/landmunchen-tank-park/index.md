@@ -10,6 +10,7 @@ includeGallery: true
 thumbnail: /battle-reports/landmunchen-tank-park/images/thumbnail.jpg
 thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
 game: team-yankee
+author: Jack Hughes
 ---
 
 The day of reckoning had arrived at last for the US armoured company waiting on the wide open plains of West Germany at Landmunchen. Arrayed against them were the elite of the Soviet Army. The US personnel knew that the Soviets would soon be hurtling straight towards them.

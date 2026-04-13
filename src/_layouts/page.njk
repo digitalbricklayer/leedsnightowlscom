@@ -58,9 +58,10 @@ metaContentType: website
     "url": "{{ site.url }}{{ page.url }}",
     {% if thumbnail %}"image": "{{ site.url }}{{ thumbnail }}",{% endif %}
     "author": {
-      "@type": "Organization",
-      "name": {{ site.name | dump | safe }},
-      "url": "{{ site.url }}"
+      "@type": "{{ 'Person' if author else 'Organization' }}",
+      "name": {{ (author if author else site.name) | dump | safe }}{% if not author %},
+      "url": "{{ site.url }}"{% endif %}
+
     },
     "publisher": {
       "@type": "Organization",

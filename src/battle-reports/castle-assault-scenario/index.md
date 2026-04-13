@@ -9,6 +9,7 @@ tags:
 thumbnail: /battle-reports/castle-assault-scenario/images/FB_IMG_1773842372914.jpg
 thumbnailAlt: The castle prior to the undead assault
 game: warmaster-revolution
+author: Mark Unitt
 ---
 
 With the news that the dread Tomb King Ey-ap has been gathering his forces to invade the lands of the Elves, Lord Zinfandel Glykolwein has been despatched to hold the small border fortress of Limeswold against a possible incursion of the undead.

@@ -10,6 +10,7 @@ includeGallery: true
 thumbnail: /battle-reports/bolt-action-battle-report-march-15-2026/images/654580460_1241838628041621_6170214115789364402_n.jpg
 thumbnailAlt: US Airborne waiting for the off
 game: bolt-action
+author: Martin Cawthra
 ---
 
 15th March 2026 Dylan vs Martin
