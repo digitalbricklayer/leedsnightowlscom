@@ -8,7 +8,7 @@ tags:
   - world war 2
 slug: road-to-dunkirk-part-deux
 campaign: road-to-dunkirk
-eventDate: 2026-04-11
+eventDate: 2026-04-12
 ---
 
 # Road to Dunkirk Part Deux: Arras Counter-Attack
