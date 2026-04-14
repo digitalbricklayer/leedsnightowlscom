@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eleventy",
-    "test:links": "linkinator ./_site --recurse --markdown --skip \"\\.(?:png|jpg|jpeg|gif|tiff|bmp|svg|webp|ico|js)$\" --skip \"^https?://\""
+    "test:links": "npm run build && linkinator ./_site --recurse --skip \"\\.(?:png|jpg|jpeg|gif|tiff|bmp|svg|webp|ico|js)$\" --skip \"^https?://\""
   },
   "keywords": [],
   "author": "",
