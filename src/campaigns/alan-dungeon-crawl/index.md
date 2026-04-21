@@ -1,5 +1,5 @@
 ---
-title: Alan's Dungeon Crawl
+title: Alan's Dungeon Crawl Campaign
 description: "Leeds Night Owls is hosting a long running dungeons and dragons RPG campaign using Alan's beskoke rules."
 slug: alan-dungeon-crawl
 thumbnail: /campaigns/alan-dungeon-crawl/images/dungeons-and-dragons.jpg
