@@ -1,13 +1,12 @@
 ---
 title: Alan's Dungeon Crawl
-description: "A long running dungeons and dragons RPG campaign run using Alan's beskoke rules."
+description: "Leeds Night Owls is hosting a long running dungeons and dragons RPG campaign using Alan's beskoke rules."
 slug: alan-dungeon-crawl
 thumbnail: /campaigns/alan-dungeon-crawl/images/dungeons-and-dragons.jpg
 thumbnailAlt: "Alan's Dungeon Crawl in action"
 tags:
   - rpg
 activeCampaign: true
-draft: true
 ---
 
 Alan has been running a bespoke dungeon crawling RPG for some time now. Each episode typically attracts a number of intrepid adverturers ready to enter the dark and dank depths of Alan's imagination.
