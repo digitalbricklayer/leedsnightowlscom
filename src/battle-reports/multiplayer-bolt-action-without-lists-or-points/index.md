@@ -1,11 +1,13 @@
 ---
 title: Multiplayer Bolt Action without Lists or Point Restrictions
 description: A multiplayer game of Bolt Action using rules intended to get all of those neglected miniatures onto the tabletop with some interesting side effects.
-slug: landmunchen-tank-park
+slug: multiplayer-bolt-action-without-lists-point-restrictions
 date: 2026-05-11
 tags:
-  - Bolt Action
+  - bolt action
 game: bolt-action
+thumbnail: /battle-reports/landmunchen-tank-park/images/thumbnail.jpg
+thumbnailAlt: An armoured column of T-64 tanks heading to Landmunchen
 author: Jack Hughes
 draft: true
 ---
