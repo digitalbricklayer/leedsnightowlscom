@@ -1,15 +1,19 @@
 ---
 title: Multiplayer Bolt Action without Lists or Point Restrictions
 description: A multiplayer game of Bolt Action using rules intended to get all of those neglected miniatures onto the tabletop with some interesting side effects.
+slug: landmunchen-tank-park
+date: 2026-05-11
 tags:
   - Bolt Action
+game: bolt-action
+author: Jack Hughes
 draft: true
 ---
 
 ## Introduction
-Everybody has a ton of miniatures that never get to see the light of day. Maybe you don't have the points for the unit, or perhaps it never quite earns its points back. Or maybe the conversion from version 2 means that it isn't viable anymore.
+Everybody has a ton of miniatures that never get to see the light of day. Maybe you don't usually have the points for the unit, or perhaps it never quite earns its points back. Or maybe the conversion to version 3 means that it isn't viable anymore.
 
-Why not play a big multiplayer game where those rarely used miniatures get a chance to shine on the tabletop where they belong. To facilitate getting all of the miniatures onto the table and to complete the game in a reasonable amount of time required a couple of special rules:
+Why not play a big multiplayer game where those rarely used miniatures get a chance to shine on the tabletop where they belong. To facilitate getting all of the miniatures onto the table and to complete the game in a reasonable amount of time, required a couple of special rules:
 1. Each player was limited to 4 order dice meaning each side had a total of 12 dice; and
 2. No points limit or lists; bring on whatever you want, when you draw your order dice.
 
