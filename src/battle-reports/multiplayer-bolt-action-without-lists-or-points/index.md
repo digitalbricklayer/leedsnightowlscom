@@ -7,18 +7,18 @@ tags:
   - bolt action
 game: bolt-action
 thumbnail: /battle-reports/multiplayer-bolt-action-without-lists-or-points/images/a23a1b22-3b0a-4b8c-bde7-a8667597dc88.jpg
-thumbnailAlt: A multiplayer game of bolt action without lists or points and restricted order dice
+thumbnailAlt: A multiplayer game of bolt action without lists or points restrictions and limited order dice
 author: Jack Hughes
 draft: true
 ---
 
 ## Introduction
-We played a large game of Bolt Action designed to get those little used models out onto the tabletop. Members at Leeds Night Owls (and most Bolt Action players) have tons of models that never seem to get any game time. We thought, why not have a game where everybody can get those little used models onto the tabletop where they belong. To facilitate getting all of the little used models onto the table the game had no lists and no points. The only restriction was that each player had only four order dice in order to ensure the game could be finished relatively quickly.
+We played a large game of Bolt Action designed to get little used models onto the tabletop. Members at Leeds Night Owls (and most Bolt Action players) have tons of models that never seem to get any game time. We thought, why not have a game where everybody can get those little used models onto the tabletop where they belong. The game we came up with had no lists and no points restrictions. The only restriction was that each player had only four order dice in order to ensure the game could be finished relatively quickly.
 
 ## The Scenario
 There will be 3 players each side. To facilitate getting all of the miniatures onto the table and to complete the game in a reasonable amount of time, required a couple of special rules:
 1. Each player was limited to 4 order dice meaning each side had a total of 12 order dice. Each player's dice must be a unique colour; and
-2. No points limit or lists; bring on whatever units you want so long as you have an order dice for it. Units already on the battlefield do not have to have an order dice each turn.
+2. No points restrictions or lists; bring on whatever units you want so long as you have an order dice for it. Units already on the battlefield do not have to have an order dice each turn.
 
 The scenario will be x from the Bolt Action version 3 rulebook. There will be three objectives down the middle of the table. The objective of the game is to capture as many objectives as possible. Each objective is worth 2 points. The team with the most points at the end of the game, wins.
 
@@ -26,8 +26,6 @@ The scenario will be x from the Bolt Action version 3 rulebook. There will be th
 The game proceeded fairly normally until turn 3. The usual very cagey start, nobody wanting to stick their head above the parapit too much. Then some bright spark brought on an artillery spotter for the British side. The spot chosen for the strike was right where my infantry had been waiting for a late game dash to the central objective.
 
 The artillery spotters opened the game up beautifully. You couldn't just sit behind scenery waiting for a last minute rush to the objectives. 
-
-The more experienced Bolt Action players will no doubt have ocurred to you that, if there's no points limit or list restrictions, then why not bring on artillery spotters? Indeed after a couple of turns the players did exactly that.
 
 ## Photos
 
@@ -44,4 +42,4 @@ The more experienced Bolt Action players will no doubt have ocurred to you that,
 {% endgallery %}
 
 ## Conclusion
-The game was a lot of fun. The side effect of using the two extra rules was that the game opened up. The fear that your units were going to be destroyed disappeared because it didn't really matter. Just bring on another unit. The unintended accident that people used a number of artillery observers meant that you had to move so you may as well move forward.
+The game was a lot of fun. The side effect of using the two extra rules was that the game opened up nicely. The fear that your units were going to be destroyed disappeared because it didn't really matter. Just bring on another unit. The unintended accident that people used a number of artillery observers meant that you had to move so you may as well move forward.
