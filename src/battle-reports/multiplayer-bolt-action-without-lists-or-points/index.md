@@ -6,10 +6,10 @@ date: 2026-05-12
 tags:
   - bolt action
 game: bolt-action
+includeGallery: true
 thumbnail: /battle-reports/multiplayer-bolt-action-without-lists-or-points/images/a23a1b22-3b0a-4b8c-bde7-a8667597dc88.jpg
 thumbnailAlt: A multiplayer game of bolt action without lists or points restrictions and limited order dice
 author: Jack Hughes
-draft: true
 ---
 
 ## Introduction
@@ -23,9 +23,13 @@ There will be 3 players each side. To facilitate getting all of the miniatures o
 The scenario will be x from the Bolt Action version 3 rulebook. There will be three objectives down the middle of the table. The objective of the game is to capture as many objectives as possible. Each objective is worth 2 points. The team with the most points at the end of the game, wins.
 
 ## The Game
-The game proceeded fairly normally until turn 3. The usual very cagey start, nobody wanting to stick their head above the parapit too much. Then some bright spark brought on an artillery spotter for the British side. The spot chosen for the strike was right where my infantry had been waiting for a late game dash to the central objective.
+The game proceeded fairly normally until turn 3. The usual very cagey start, nobody wanting to stick their head above the parapit too much. Then some bright spark brought on an artillery spotter for the British side. The spot chosen for the strike was right where my infantry had been waiting for a late game dash to the central objective. At the beginning of turn 4 the artillery strike came in. It wasn't devastating but it did distribute a few pins. The threat of an artillery spotter is usually worse than the actual strike.
 
-The artillery spotters opened the game up beautifully. You couldn't just sit behind scenery waiting for a last minute rush to the objectives. 
+On turn 4 the Brits brought on another artillery spotter prompting more movement from the Germans to the objectives. The artillery spotters opened the game up beautifully. You couldn't just sit behind scenery waiting for a last minute rush to the objectives.
+
+The German left and right flanks descended into a major infantry battle. With some good dice rolling the Germans managed to clear their left flank. The right flank was heavily contested to the end.
+
+Unfortunately, the game ended at the end of turn 5. We ran out of time due to a delayed start. Had the game continued I think the German side would have had the advantage. Two of the objectives were wide open to them with little the Brits could do to oppose them.
 
 ## Photos
 
@@ -42,4 +46,4 @@ The artillery spotters opened the game up beautifully. You couldn't just sit beh
 {% endgallery %}
 
 ## Conclusion
-The game was a lot of fun. The side effect of using the two extra rules was that the game opened up nicely. The fear that your units were going to be destroyed disappeared because it didn't really matter. Just bring on another unit. The unintended accident that people used a number of artillery observers meant that you had to move so you may as well move forward.
+The game was a lot of fun. The side effect of using the two extra rules was that the game opened up nicely. The fear that your units were going to be destroyed disappeared because it didn't really matter. Just bring on another unit. The unintended accident that people used a number of artillery observers meant that you were forced to move so you may as well move forward.
