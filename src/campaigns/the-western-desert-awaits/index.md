@@ -9,6 +9,7 @@ tags:
   - bolt action
   - world war 2
 activeCampaign: true
+campaignDate: 2026-07-27
 ---
 
 Calling all Bolt Action players! Leeds Night Owls are hosting a 'Bolt Action Western Desert' campaign. This will be an enjoyable series of non-competitive games focused on fun, tactical narrative play, and great community vibes for everyone involved.

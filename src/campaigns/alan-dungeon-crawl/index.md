@@ -7,6 +7,7 @@ thumbnailAlt: "Alan's Dungeon Crawl in action"
 tags:
   - rpg
 activeCampaign: true
+campaignDate: 2026-04-21
 ---
 
 Alan has been running a bespoke dungeon crawling RPG for some time now. Each episode typically attracts a number of intrepid adverturers ready to enter the dark and dank depths of Alan's imagination.

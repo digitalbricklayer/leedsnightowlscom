@@ -30,7 +30,7 @@ breadcrumbLabel: Campaigns
 {% if currentCampaigns.length == 0 %}
 <p class="text-muted">There are no active campaigns active at the moment. Check back soon, or <a href="/contact-us/">get in touch</a> to find out what's being planned.</p>
 {% else %}
-  {% for campaign in currentCampaigns %}
+  {% for campaign in currentCampaigns | sort(true, false, "data.campaignDate") %}
   <div class="row mb-4 border-bottom pb-4">
     {% if campaign.data.thumbnail %}
     <div class="col-md-4">
