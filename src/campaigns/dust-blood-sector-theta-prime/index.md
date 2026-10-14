@@ -10,8 +10,6 @@ activeCampaign: true
 campaignDate: 2026-09-01
 ---
 
-# Dust and Blood of Sector Theta-Prime Campaign
-
 *** All Gang Leaders ***
 
 It's time the herd them Phyrr Cats, spend them credits, gather your gangers & load them stubbers.
