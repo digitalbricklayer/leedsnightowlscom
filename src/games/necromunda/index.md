@@ -14,4 +14,4 @@ breadcrumbLabel: Necromunda
 ---
 
 <h1>Necromunda at Leeds Night Owls</h1>
-<p>Necromunda is a gang skirmish games set within the Warhammer 40,000 universe.</p>
+<p>Necromunda is a gang skirmish game set within the Warhammer 40,000 universe.</p>
