@@ -8,7 +8,7 @@ tags:
   - world war 2
 slug: road-to-dunkirk-part-trois
 campaign: road-to-dunkirk
-eventDate: TBC
+eventDate: 2026-06-01
 ---
 
 # Road to Dunkirk Part Trois: The Dunkirk Perimeter
