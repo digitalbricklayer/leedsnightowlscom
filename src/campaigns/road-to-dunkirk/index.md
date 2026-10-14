@@ -8,7 +8,7 @@ game: bolt-action
 tags:
   - bolt action
   - world war 2
-activeCampaign: true
+activeCampaign: false
 campaignDate: 2026-03-23
 ---
 
