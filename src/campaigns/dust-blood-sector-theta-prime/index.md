@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Dust and Blood of Sector Theta-Prime
-lug: dust-blood-sector-theta-prime
+slug: dust-blood-sector-theta-prime
 thumbnail: /campaigns/dust-blood-sector-theta-prime/images/775260505_28096390099992737_4003240996625109804_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime"
 game: necromunda
