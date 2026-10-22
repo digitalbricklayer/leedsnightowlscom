@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Games
   order: 70
 slug: necromunda
-includeGallery: false
+includeGallery: true
 breadcrumbLabel: Necromunda
 ---
 
