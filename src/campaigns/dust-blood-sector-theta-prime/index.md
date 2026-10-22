@@ -1,5 +1,6 @@
 ---
 title: Welcome to the Dust and Blood of Sector Theta-Prime
+description: "A 3-month introductory Necromunda campaign designed to blood fresh gangers, teach you how to haul back precious credits, and ruthlessly deal with any captured rival gang members."
 slug: dust-blood-sector-theta-prime
 thumbnail: /campaigns/dust-blood-sector-theta-prime/images/775260505_28096390099992737_4003240996625109804_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime"

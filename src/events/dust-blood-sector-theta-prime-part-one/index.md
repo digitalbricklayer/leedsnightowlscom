@@ -1,5 +1,6 @@
 ---
 title: "Dust and Blood of Sector Theta-Prime: Part One"
+description: "The first games of the campaign Dust and Blood of Sector Theta-Prime will be the 27th September with a good old fashioned Border Dispute"
 thumbnail: /events/dust-blood-sector-theta-prime-part-one/images/789926528_122139847065163300_3769083359379821533_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime Logo"
 game: necromunda
@@ -7,7 +8,7 @@ tags:
   - necromunda
 slug: dust-blood-sector-theta-prime-part-one
 campaign: dust-blood-sector-theta-prime
-eventDate: 2026-09-01
+eventDate: 2026-09-27
 ---
 
 # Dust and Blood of Sector Theta-Prime: Part One
