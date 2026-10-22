@@ -1,12 +1,12 @@
 ---
 title: Dust and Blood of Sector Theta-Prime: Part One
-thumbnail: /evemts/dust-blood-sector-theta-prime-part-one/images/775260505_28096390099992737_4003240996625109804_n.jpg
+thumbnail: /evemts/dust-blood-sector-theta-prime-part-one/images/789926528_122139847065163300_3769083359379821533_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime Logo"
 game: necromunda
 tags:
   - necromunda
-slug: road-to-dunkirk-part-deux
-campaign: road-to-dunkirk
+slug: dust-blood-sector-theta-prime-part-one
+campaign: dust-blood-sector-theta-prime
 eventDate: 2026-09-01
 ---
 
