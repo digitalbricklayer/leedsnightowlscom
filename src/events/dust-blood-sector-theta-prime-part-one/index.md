@@ -10,6 +10,8 @@ campaign: dust-blood-sector-theta-prime
 eventDate: 2026-09-01
 ---
 
+# Dust and Blood of Sector Theta-Prime: Part One
+
 *** All Gang Leaders ***
 
 It's time the herd them Phyrr Cats, spend them credits, gather your gangers & load them stubbers.
