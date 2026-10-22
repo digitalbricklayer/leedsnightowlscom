@@ -1,6 +1,6 @@
 ---
 title: "Dust and Blood of Sector Theta-Prime: Part One"
-thumbnail: /evemts/dust-blood-sector-theta-prime-part-one/images/789926528_122139847065163300_3769083359379821533_n.jpg
+thumbnail: /events/dust-blood-sector-theta-prime-part-one/images/789926528_122139847065163300_3769083359379821533_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime Logo"
 game: necromunda
 tags:
