@@ -20,4 +20,4 @@ Part two of the Dust and Blood of Sector Theta Prime is to be played on 15th or 
 - Match 3 (1v1): Darren vs Steven
 - Match 4 (3-Player Rumble): Steve vs Alan vs Andy
 
-Campaign Join Link: - https://www.mundamanager.com/campaigns/dc71e927-fb59-4020-bf29-9bd5cdae16fc
+Campaign Join Link [here](https://www.mundamanager.com/campaigns/dc71e927-fb59-4020-bf29-9bd5cdae16fc).
