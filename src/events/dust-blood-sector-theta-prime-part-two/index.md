@@ -1,5 +1,6 @@
 ---
 title: "Dust and Blood of Sector Theta-Prime: Part Two"
+description: "The second games of the campaign Dust and Blood of Sector Theta-Prime will be either on the 15th or 22nd November"
 thumbnail: /events/dust-blood-sector-theta-prime-part-two/images/846671635_122144410923163300_3478927511930499159_n.jpg
 thumbnailAlt: "Dust and Blood of Sector Theta-Prime Logo"
 game: necromunda
